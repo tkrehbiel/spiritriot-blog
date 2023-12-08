@@ -13,7 +13,7 @@ export async function searchEntriesLocal(
 
     const concurrency = getFileConcurrency();
     const files = await walkDirectory(
-        path.join(process.cwd(), 'content'),
+        path.join(process.cwd(), 'data'),
         '',
         '.json',
     );

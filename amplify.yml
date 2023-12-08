@@ -20,12 +20,13 @@ frontend:
         # Fail build if tests fail
         - npm install
         - npm test
-        - rm -rf content
+        # Remove data because we're replacing it
+        - rm -rf data
     build:
       commands:
-        - mkdir -p content
+        - mkdir -p data
         - aws s3 cp s3://${EGV_RESOURCE_JSON_BUCKET}/_content.zip .
-        - unzip -q _content.zip -d content
+        - unzip -q _content.zip -d data
         - rm _content.zip
         - node -v
         - npm ci

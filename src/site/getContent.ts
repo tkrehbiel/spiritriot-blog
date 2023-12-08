@@ -3,7 +3,7 @@ import { getContentAtRouteLocal } from '@/data/local/fetchFromLocal';
 import { getContentAtRouteS3 } from '@/data/s3/fetchFromS3';
 import { ENV, getEnv } from '@config/env';
 
-const contentUrl = new URL(getEnv(ENV.CONTENT_LOCATION));
+const contentUrl = new URL(getEnv(ENV.DATA_LOCATION));
 
 export async function getContentAtRoute(route: string[]): Promise<PageContent> {
     // TODO: Should go back to some kind of provider class probably

@@ -1,5 +1,5 @@
 // Very high level site configuration.
-import { branding } from '@content/branding';
+import { branding } from '@data/branding';
 
 interface headLink {
     rel: string;

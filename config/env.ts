@@ -19,7 +19,7 @@ export enum ENV {
     JSON_BUCKET,
     EVENT_QUEUE,
     CONCURRENCY,
-    CONTENT_LOCATION,
+    DATA_LOCATION,
 }
 
 const definedVariables: EnvVars = {
@@ -51,9 +51,9 @@ const definedVariables: EnvVars = {
         name: 'EGV_USER_FILE_CONCURRENCY',
         defaultValue: '100',
     },
-    [ENV.CONTENT_LOCATION]: {
-        name: 'EGV_USER_CONTENT_LOCATION',
-        defaultValue: 'file://content',
+    [ENV.DATA_LOCATION]: {
+        name: 'EGV_USER_DATA_LOCATION',
+        defaultValue: 'file://data',
     },
 };
 

@@ -1,5 +1,4 @@
-content/**
-content-remote/**
+data/**
 *.css
 *.yml
 *.yaml
