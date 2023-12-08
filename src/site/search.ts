@@ -8,8 +8,6 @@ export async function searchEntries(
     params: EntryQueryParams,
 ): Promise<PageContent[]> {
     const searchTable = getEnv(ENV.SEARCH_TABLE);
-    if (searchTable && searchTable !== "")
-        return searchEntriesDynamo(params);
-    else
-        return searchEntriesLocal(params);
+    if (searchTable && searchTable !== '') return searchEntriesDynamo(params);
+    else return searchEntriesLocal(params);
 }

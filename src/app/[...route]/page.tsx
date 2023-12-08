@@ -31,7 +31,7 @@ export async function generateStaticParams() {
             }
         }
     } catch (error) {
-        console.log("error generating section routes");
+        console.log('error generating section routes');
         throw error;
     }
     try {
@@ -46,7 +46,7 @@ export async function generateStaticParams() {
             }
         }
     } catch (error) {
-        console.log("error generating page routes");
+        console.log('error generating page routes');
         throw error;
     }
     return params;
@@ -62,7 +62,7 @@ export default async function Page({
     try {
         return standardPageComponent(params.route);
     } catch (error) {
-        console.log("error generating Page for", params.route.join('/'))
+        console.log('error generating Page for', params.route.join('/'));
         throw error;
     }
 }

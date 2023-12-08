@@ -16,7 +16,7 @@ export default function MastodonThreadLayout({ route }: { route: string }) {
         fetch(`/api/mentions?url=${url}`)
             .then((res) => {
                 if (res.status === 500) {
-                    console.log("error response");
+                    console.log('error response');
                     setMentions([]);
                     setLoading(false);
                 } else {

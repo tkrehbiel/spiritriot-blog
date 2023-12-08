@@ -24,15 +24,11 @@ export const getContentAtRouteLocal = async (
 };
 
 export async function getLocalJSONFile(relativepath: string): Promise<any> {
-    const pathname = path.join(
-        process.cwd(),
-        'content',
-        relativepath,
-    );
+    const pathname = path.join(process.cwd(), 'content', relativepath);
     try {
         const body = await fs.readFile(pathname, 'utf8');
         return JSON.parse(body);
-    } catch(error) {
+    } catch (error) {
         // file not found probably
         return null;
     }

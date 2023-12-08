@@ -11,22 +11,25 @@ export function hugoToPage(
     children: PageContent[] = [],
 ): PageContent {
     try {
-    let image: string | undefined = undefined;
-    if (json.metadata && json.metadata.images) {
-        image = json.metadata.images[0];
-    }
-    return {
-        timestamp: safeParseDateMillis(safeStringify(json.date)),
-        route: canonicalizePath(safeStringify(json.link)),
-        summary: new TextType(safeStringify(json.summary), 'text/plain'),
-        article: new TextType(safeStringify(json.content), 'text/html'),
-        title: json.metadata?.title,
-        type: json.metadata?.type?.toLowerCase() === 'micropost' ? 'micropost' : 'post',
-        image: image,
-        children: children,
-    };
+        let image: string | undefined = undefined;
+        if (json.metadata && json.metadata.images) {
+            image = json.metadata.images[0];
+        }
+        return {
+            timestamp: safeParseDateMillis(safeStringify(json.date)),
+            route: canonicalizePath(safeStringify(json.link)),
+            summary: new TextType(safeStringify(json.summary), 'text/plain'),
+            article: new TextType(safeStringify(json.content), 'text/html'),
+            title: json.metadata?.title,
+            type:
+                json.metadata?.type?.toLowerCase() === 'micropost'
+                    ? 'micropost'
+                    : 'post',
+            image: image,
+            children: children,
+        };
     } catch (error) {
-        console.log("error in", JSON.stringify(json));
+        console.log('error in', JSON.stringify(json));
         throw error;
     }
 }

@@ -7,10 +7,8 @@ const contentUrl = new URL(getEnv(ENV.CONTENT_LOCATION));
 
 export async function getContentAtRoute(route: string[]): Promise<PageContent> {
     // TODO: Should go back to some kind of provider class probably
-    if (contentUrl.protocol === 's3:')
-        return getContentAtRouteS3(route);
+    if (contentUrl.protocol === 's3:') return getContentAtRouteS3(route);
     else if (contentUrl.protocol === 'file:')
         return getContentAtRouteLocal(route);
-    else
-        throw new Error(`unrecognizable content location: ${contentUrl}`);
+    else throw new Error(`unrecognizable content location: ${contentUrl}`);
 }

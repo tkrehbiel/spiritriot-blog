@@ -26,10 +26,11 @@ async function authorizedGet(apiUrl: string): Promise<any> {
     const headers = new Headers();
     headers.append('Authorization', `Bearer ${mastodonApiToken}`);
     console.log(`querying ${apiUrl}`);
-    return fetch(apiUrl, { method: 'GET', headers: headers })
-        .then((response) => {
+    return fetch(apiUrl, { method: 'GET', headers: headers }).then(
+        (response) => {
             return response.json();
-        });
+        },
+    );
 }
 
 function statusToMention(status: any): Mention {
@@ -65,10 +66,16 @@ async function getThread(instance?: string, id?: string): Promise<Mention[]> {
 
 export async function GET(request: Request) {
     const linkTable = getEnv(ENV.METADATA_TABLE);
-    if (!linkTable || linkTable === "")
-        return new Response(JSON.stringify({"error": "link table unconfigured"}), {status: 500});
-    if (!mastodonApiToken || mastodonApiToken === "")
-        return new Response(JSON.stringify({"error": "api token unconfigured"}), {status: 500});
+    if (!linkTable || linkTable === '')
+        return new Response(
+            JSON.stringify({ error: 'link table unconfigured' }),
+            { status: 500 },
+        );
+    if (!mastodonApiToken || mastodonApiToken === '')
+        return new Response(
+            JSON.stringify({ error: 'api token unconfigured' }),
+            { status: 500 },
+        );
 
     const startTime = performance.now();
     const { searchParams } = new URL(request.url);

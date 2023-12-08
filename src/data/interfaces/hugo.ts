@@ -6,7 +6,7 @@ export interface HugoJsonPage {
         alternates?: string[];
         tags?: string[];
         categories?: string[];
-    }
+    };
     date: string; // format: ISO 8601 yyyy-mm-ddThh:mm:ss-zzzz
     link: string;
     summary?: string;
