@@ -48,14 +48,25 @@ So you have to create an AWS Amplify app manually in the console.
 
 Set the Amplify service account to the one created in the backend stack. It has permissions to all the right resources.
 
+### Create an Amplify Project
+
+Connect to the spiritriot-blog repo.
+
+### Create an incoming webhook
+
+- Copy the url
+- Store it in AWS Secrets Manager
+  - Secret Name: (stackName)-build-secrets
+  - Secret Key: amplifyWebHook
+
 ### Build Settings
 
 - Build Image: Amazon Linux:2023 image
 - Build Timeout: (default)
 - Package Overrides:
   - Amplify CLI: latest
-  - Next.js version: latest
-  - Node.js version: 18
+  - Next.js version: 14
+  - Node.js version: 20
 
 Amazon Linux:2023 is relatively new build image that is required in order to build a Next.js 13+ App Router application, which requires Node.js 18+, which wasn't supported until the Amazon Linux:2023 image.
 
@@ -63,6 +74,8 @@ Amazon Linux:2023 is relatively new build image that is required in order to bui
 
 As far as I know, these have to be set manually in the AWS Amplify Console.
 
+- EGV_RESOURCE_STACK
+  - Prefix for the CloudFormation stack resources to use. Should be the same value used when creating the backend resources.
 - EGV_RUNTIME_ACCESS_KEY_ID
 - EGV_RUNTIME_SECRET_ACCESS_KEY
   - Access token and secret for an account that has access to resources from the server-side runtime. These are required mainly so that the api can access DynamoDB tables. Couldn't find any other way to get credentials to the runtime. Create an IAM user with S3ReadOnly, DynamoReadOnly, and SQS message send permissions, then create access tokens and set them here. At some future date I want to update the CloudFormation template to make this user. Then all you'll have to do is export the tokens.
