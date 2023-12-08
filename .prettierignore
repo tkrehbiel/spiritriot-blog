@@ -1,3 +1,6 @@
 content/**
 content-remote/**
 *.css
+*.yml
+*.yaml
+*.md
