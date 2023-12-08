@@ -12,11 +12,6 @@
         "format": "prettier --check .",
         "format:fix": "prettier --write ."
     },
-    "husky": {
-        "hooks": {
-            "pre-commit": "yarn format:fix && yarn lint && yarn test"
-        }
-    },
     "dependencies": {
         "@aws-sdk/client-dynamodb": "^3.454.0",
         "@aws-sdk/client-s3": "^3.449.0",
