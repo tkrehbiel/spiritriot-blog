@@ -1,0 +1,5900 @@
+[
+    {
+        "source": "/<*>",
+        "target": "/404.html",
+        "status": "404-200",
+        "condition": null
+    },
+    {
+        "source": "/wp-login.php",
+        "target": "/404.html",
+        "status": "404-200",
+        "condition": null
+    },
+    {
+        "source": "/.well-known/nodeinfo",
+        "target": "/federation",
+        "status": "302",
+        "condition": null
+    },
+    {
+        "source": "/.well-known/host-meta",
+        "target": "/federation",
+        "status": "302",
+        "condition": null
+    },
+    {
+        "source": "/.well-known/webfinger",
+        "target": "/federation",
+        "status": "302",
+        "condition": null
+    },
+    {
+        "source": "/donuts/delicious",
+        "target": "/about",
+        "status": "302",
+        "condition": null
+    },
+    {
+        "source": "/feed",
+        "target": "/index.xml",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/comments/feed",
+        "target": "/index.xml",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-secret-world",
+        "target": "/gaming/2012/the-secret-world/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-secret-world-likes-and-dislikes",
+        "target": "/gaming/2012/the-secret-world-likes-and-dislikes/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/hello",
+        "target": "/gaming/2012/hello/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ultrviolet-in-the-secret-world",
+        "target": "/gaming/2012/ultrviolet-in-the-secret-world/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/maybe-some-other-time",
+        "target": "/gaming/2012/maybe-some-other-time/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/down-the-rabbit-hole",
+        "target": "/gaming/2012/down-the-rabbit-hole/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/guild-wars-2-head-stop",
+        "target": "/gaming/2012/guild-wars-2-head-stop/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/guild-wars-2-head-start-weekend",
+        "target": "/gaming/2012/guild-wars-2-head-start-weekend/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/necromancer-daggers",
+        "target": "/gaming/2012/necromancer-daggers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/pointers-in-games",
+        "target": "/gaming/2012/pointers-in-games/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/greens-and-blues",
+        "target": "/gaming/2012/greens-and-blues/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/my-first-look-at-skyrim",
+        "target": "/gaming/2012/my-first-look-at-skyrim/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/upcoming-2013-games",
+        "target": "/gaming/2013/upcoming-2013-games/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mmorpg-micro-reviews",
+        "target": "/gaming/2013/mmorpg-micro-reviews/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/beta-signups",
+        "target": "/gaming/2013/beta-signups/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/bioshock-infinite-game-of-the-decade",
+        "target": "/gaming/2013/bioshock-infinite-game-of-the-decade/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/my-top-5",
+        "target": "/gaming/2013/my-top-5/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/tera",
+        "target": "/gaming/2013/tera/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/neverwinter-open-beta",
+        "target": "/gaming/2013/neverwinter-open-beta/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/defiance-beta-results",
+        "target": "/gaming/2013/defiance-beta-results/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/on-the-control-wizard",
+        "target": "/gaming/2013/on-the-control-wizard/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/on-the-devoted-cleric",
+        "target": "/gaming/2013/on-the-devoted-cleric/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/neverwinter-forums",
+        "target": "/gaming/2013/neverwinter-forums/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/anticlimatic-nevewinter-feats",
+        "target": "/gaming/2013/anticlimatic-nevewinter-feats/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lair-of-the-mad-dragon",
+        "target": "/gaming/2013/lair-of-the-mad-dragon/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/chortlefax-fail-number-6",
+        "target": "/gaming/2013/chortlefax-fail-number-6/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/why-chartilifax-is-so-hard",
+        "target": "/gaming/2013/why-chartilifax-is-so-hard/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/on-the-great-weapon-fighter",
+        "target": "/gaming/2013/on-the-great-weapon-fighter/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/which-difficulty-is-artificial-and-which-is-real",
+        "target": "/gaming/2013/which-difficulty-is-artificial-and-which-is-real/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/on-the-throne-of-idris",
+        "target": "/gaming/2013/on-the-throne-of-idris/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/neverwinters-first-major-update-aka-launch-day-coming",
+        "target": "/gaming/2013/neverwinters-first-major-update-aka-launch-day-coming/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/every-mmo-forum-thread",
+        "target": "/gaming/2013/every-mmo-forum-thread/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/grey-wolf-pirate-king-frozen-heart-spellplague",
+        "target": "/gaming/2013/grey-wolf-pirate-king-frozen-heart-spellplague/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/spellplague-caverns-death-march",
+        "target": "/gaming/2013/spellplague-caverns-death-march/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/back-to-rift-for-a-bit",
+        "target": "/gaming/2013/back-to-rift-for-a-bit/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/fresh-60-in-rift",
+        "target": "/gaming/2013/fresh-60-in-rift/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/weekend-rift-accomplishments",
+        "target": "/gaming/2013/weekend-rift-accomplishments/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/a-games-most-important-features",
+        "target": "/gaming/2013/a-games-most-important-features/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/low-level-tanking",
+        "target": "/gaming/2013/low-level-tanking/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mentored-healing-attempts",
+        "target": "/gaming/2013/mentored-healing-attempts/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/drama-queen-tanks",
+        "target": "/gaming/2013/drama-queen-tanks/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/tanking-realm-of-the-fae",
+        "target": "/gaming/2013/tanking-realm-of-the-fae/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/newbie-tanking-realm-of-the-fae-normal",
+        "target": "/gaming/2013/newbie-tanking-realm-of-the-fae-normal/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/healer-meltdown",
+        "target": "/gaming/2013/healer-meltdown/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/stranger-guildies",
+        "target": "/gaming/2013/stranger-guildies/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-mage-maxed-out",
+        "target": "/gaming/2013/rift-mage-maxed-out/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/newbie-tanking-iron-tombs-normal",
+        "target": "/gaming/2013/newbie-tanking-iron-tombs-normal/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/newbie-guide-to-dungeons",
+        "target": "/gaming/2013/newbie-guide-to-dungeons/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-is-too-easy",
+        "target": "/gaming/2013/rift-is-too-easy/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/newbies-in-the-lowbie-dungeons",
+        "target": "/gaming/2013/newbies-in-the-lowbie-dungeons/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/healers-and-tanks-are-like-cats-and-dogs",
+        "target": "/gaming/2013/healers-and-tanks-are-like-cats-and-dogs/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dark-souls-on-the-pc",
+        "target": "/gaming/2013/dark-souls-on-the-pc/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/taurus-demon-down",
+        "target": "/gaming/2013/taurus-demon-down/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/firefall-founder-by-accident",
+        "target": "/gaming/2013/firefall-founder-by-accident/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-walking-dead-game-bites",
+        "target": "/gaming/2013/the-walking-dead-game-bites/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-walking-dead-game-episode-3",
+        "target": "/gaming/2013/the-walking-dead-game-episode-3/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/finally-finishing-up-assassins-creed-ii",
+        "target": "/gaming/2013/finally-finishing-up-assassins-creed-ii/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/assassins-creed-ii-finished",
+        "target": "/gaming/2013/assassins-creed-ii-finished/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/assassins-creed-brotherhood-finished",
+        "target": "/gaming/2013/assassins-creed-brotherhood-finished/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/tomb-raider-the-2013-reboot",
+        "target": "/gaming/2013/tomb-raider-the-2013-reboot/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ac-revelations-finished",
+        "target": "/gaming/2013/ac-revelations-finished/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/assassins-creed-iii",
+        "target": "/gaming/2013/assassins-creed-iii/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/bored-with-everything",
+        "target": "/gaming/2013/bored-with-everything/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/red-alert",
+        "target": "/gaming/2013/red-alert/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv",
+        "target": "/gaming/2013/ffxiv/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/things-that-are-different-in-ffxiv",
+        "target": "/gaming/2013/things-that-are-different-in-ffxiv/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/welcome-to-endgame-viable",
+        "target": "/gaming/2013/welcome-to-endgame-viable/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/can-rift-really-be-fading-away",
+        "target": "/gaming/2013/can-rift-really-be-fading-away/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/what-is-eqlandmark-anyway",
+        "target": "/gaming/2013/what-is-eqlandmark-anyway/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-opening-movie",
+        "target": "/gaming/2013/ffxiv-opening-movie/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/tequatls-on-the-juice",
+        "target": "/gaming/2013/tequatls-on-the-juice/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/warhammer-online-comes-to-an-end",
+        "target": "/gaming/2013/warhammer-online-comes-to-an-end/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/whoa-elder-scrolls-online-character-creation",
+        "target": "/gaming/2013/whoa-elder-scrolls-online-character-creation/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-relaxing-trinquility",
+        "target": "/gaming/2013/wow-relaxing-trinquility/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-tab-targeting",
+        "target": "/gaming/2013/ffxiv-tab-targeting/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-server-merges-meh",
+        "target": "/gaming/2013/rift-server-merges-meh/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/book-3-chapter-5-part-ii-of-iii",
+        "target": "/gaming/2013/book-3-chapter-5-part-ii-of-iii/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wvw-season-in-gw2",
+        "target": "/gaming/2013/wvw-season-in-gw2/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-doesnt-take-itself-seriously",
+        "target": "/gaming/2013/wow-doesnt-take-itself-seriously/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-first-month-ending",
+        "target": "/gaming/2013/ffxiv-first-month-ending/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/halloween-in-the-mmo",
+        "target": "/gaming/2013/halloween-in-the-mmo/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/tower-of-nightmares",
+        "target": "/gaming/2013/tower-of-nightmares/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/maybe-its-time-for-a-break",
+        "target": "/gaming/2013/maybe-its-time-for-a-break/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/when-tanks-go-rogue",
+        "target": "/gaming/2013/when-tanks-go-rogue/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/is-wow-leveling-really-that-fast",
+        "target": "/gaming/2013/is-wow-leveling-really-that-fast/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/story-in-mmos",
+        "target": "/gaming/2013/story-in-mmos/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-song-of-dreams-where-is-it",
+        "target": "/gaming/2013/rift-song-of-dreams-where-is-it/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-thank-god-im-not-an-achiever",
+        "target": "/gaming/2013/gw2-thank-god-im-not-an-achiever/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/achievements-the-journey-is-part-of-the-reward",
+        "target": "/gaming/2013/achievements-the-journey-is-part-of-the-reward/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-mithril-coins-rule",
+        "target": "/gaming/2013/lotro-mithril-coins-rule/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/is-chain-pulling-harder",
+        "target": "/gaming/2013/is-chain-pulling-harder/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mmo-pinball",
+        "target": "/gaming/2013/mmo-pinball/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/flying-mounts-in-wow",
+        "target": "/gaming/2013/flying-mounts-in-wow/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-dungeon-guides-are-terrible",
+        "target": "/gaming/2013/wow-dungeon-guides-are-terrible/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-song-of-dreams-mini-saga-completed",
+        "target": "/gaming/2013/rift-song-of-dreams-mini-saga-completed/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/side-note-on-new-consoles",
+        "target": "/gaming/2013/side-note-on-new-consoles/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-go-blackgate-rah-rah-or-something",
+        "target": "/gaming/2013/gw2-go-blackgate-rah-rah-or-something/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-warlords-of-draenor-impressions",
+        "target": "/gaming/2013/wow-warlords-of-draenor-impressions/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/making-sense-of-eq-landmark",
+        "target": "/gaming/2013/making-sense-of-eq-landmark/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-delicate-balance-of-beta-testing",
+        "target": "/gaming/2013/the-delicate-balance-of-beta-testing/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/trove-triggers-8-bit-ptsd",
+        "target": "/gaming/2013/trove-triggers-8-bit-ptsd/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/black-desert",
+        "target": "/gaming/2013/black-desert/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/on-the-removal-of-leveling",
+        "target": "/gaming/2013/on-the-removal-of-leveling/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-helms-deep-skill-trees",
+        "target": "/gaming/2013/lotro-helms-deep-skill-trees/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eq2-status-report",
+        "target": "/gaming/2013/eq2-status-report/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archive",
+        "target": "/gaming/2013/archive/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-great-for-introverts",
+        "target": "/gaming/2013/rift-great-for-introverts/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/happy-thanksgiving",
+        "target": "/gaming/2013/happy-thanksgiving/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/impressions-of-wizardry-online",
+        "target": "/gaming/2013/impressions-of-wizardry-online/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-status-report-45-hunter",
+        "target": "/gaming/2013/lotro-status-report-45-hunter/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/aion-surprise-its-pvp",
+        "target": "/gaming/2013/aion-surprise-its-pvp/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/stanleys-parable",
+        "target": "/gaming/2013/stanleys-parable/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/twitch-tv",
+        "target": "/gaming/2013/twitch-tv/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/which-fingers-for-wasd",
+        "target": "/gaming/2013/which-fingers-for-wasd/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/slumming-in-eq-and-ac",
+        "target": "/gaming/2013/slumming-in-eq-and-ac/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/re-using-character-names",
+        "target": "/gaming/2013/re-using-character-names/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/trove-alpha-impressions",
+        "target": "/gaming/2013/trove-alpha-impressions/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mortal-online-travel-back-to-the-late-90s",
+        "target": "/gaming/2013/mortal-online-travel-back-to-the-late-90s/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-progress-report",
+        "target": "/gaming/2013/wow-progress-report/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/invert-mouse-forever",
+        "target": "/gaming/2013/invert-mouse-forever/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-free-company-housing-in-2-1",
+        "target": "/gaming/2013/ffxiv-free-company-housing-in-2-1/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/bye-warhammer",
+        "target": "/gaming/2013/bye-warhammer/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/why-dont-people-like-poor-desmond",
+        "target": "/gaming/2013/why-dont-people-like-poor-desmond/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/fallen-earth-impressions",
+        "target": "/gaming/2013/fallen-earth-impressions/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-winter-wonderland-of-doom",
+        "target": "/gaming/2013/gw2-winter-wonderland-of-doom/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mortal-online-still-surprisingly-fun",
+        "target": "/gaming/2013/mortal-online-still-surprisingly-fun/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mmo-reporter-gushes-about-wildstar",
+        "target": "/gaming/2013/mmo-reporter-gushes-about-wildstar/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/2013-mmos-in-review",
+        "target": "/gaming/2013/2013-mmos-in-review/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/2014-mmos-coming-soon",
+        "target": "/gaming/2013/2014-mmos-coming-soon/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-they-had-personalities",
+        "target": "/gaming/2014/gw2-they-had-personalities/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/returning-to-eve-online",
+        "target": "/gaming/2014/returning-to-eve-online/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/a-freshly-formatted-pc",
+        "target": "/gaming/2014/a-freshly-formatted-pc/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-diefication-of-star-wars-galaxies",
+        "target": "/gaming/2014/the-diefication-of-star-wars-galaxies/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/steams-fall-and-winter-2013-sales",
+        "target": "/gaming/2014/steams-fall-and-winter-2013-sales/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-battles-pets-ftw",
+        "target": "/gaming/2014/wow-battles-pets-ftw/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/not-cool-soe",
+        "target": "/gaming/2014/not-cool-soe/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/early-access-mmos-and-character-wipes",
+        "target": "/gaming/2014/early-access-mmos-and-character-wipes/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-followup-on-guild-houses",
+        "target": "/gaming/2014/ffxiv-followup-on-guild-houses/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-heavensturm-event",
+        "target": "/gaming/2014/ffxiv-heavensturm-event/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-arc-or-brd-archive-or-beard",
+        "target": "/gaming/2014/ffxiv-arc-or-brd-archive-or-beard/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-the-return-of-adolescent-jerkiness",
+        "target": "/gaming/2014/ffxiv-the-return-of-adolescent-jerkiness/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-daily-life",
+        "target": "/gaming/2014/ffxiv-daily-life/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/life-without-mmo-guides",
+        "target": "/gaming/2014/life-without-mmo-guides/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/how-long-should-dungeons-take",
+        "target": "/gaming/2014/how-long-should-dungeons-take/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-miqoutes-at-studio-54",
+        "target": "/gaming/2014/ffxiv-miqoutes-at-studio-54/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-whats-it-going-to-take",
+        "target": "/gaming/2014/rift-whats-it-going-to-take/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-the-hidden-origins-of-madness",
+        "target": "/gaming/2014/gw2-the-hidden-origins-of-madness/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/changing-the-holy-trinity",
+        "target": "/gaming/2014/changing-the-holy-trinity/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-who-to-boost",
+        "target": "/gaming/2014/wow-who-to-boost/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/bye-vanguard-and-wizardry-online",
+        "target": "/gaming/2014/bye-vanguard-and-wizardry-online/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-learning-the-endgame",
+        "target": "/gaming/2014/ffxiv-learning-the-endgame/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-endgame-life",
+        "target": "/gaming/2014/ffxiv-endgame-life/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/landmark-first-impression",
+        "target": "/gaming/2014/landmark-first-impression/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-leaving-angmar-for-eregion",
+        "target": "/gaming/2014/lotro-leaving-angmar-for-eregion/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-outlands-completed-or-at-least-left",
+        "target": "/gaming/2014/wow-outlands-completed-or-at-least-left/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-conjurer-part-1",
+        "target": "/gaming/2014/ffxiv-conjurer-part-1/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-conjurer-part-2",
+        "target": "/gaming/2014/ffxiv-conjurer-part-2/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/landmark-impressions-of-impressions",
+        "target": "/gaming/2014/landmark-impressions-of-impressions/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-dreamweaving-in-2-6",
+        "target": "/gaming/2014/rift-dreamweaving-in-2-6/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/landmark-now-with-inversion",
+        "target": "/gaming/2014/landmark-now-with-inversion/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-titan-hard-mode-the-impossible-pug",
+        "target": "/gaming/2014/ffxiv-titan-hard-mode-the-impossible-pug/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/landmark-copper-found-europe-ahoy",
+        "target": "/gaming/2014/landmark-copper-found-europe-ahoy/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-speculating-on-zenimax",
+        "target": "/gaming/2014/eso-speculating-on-zenimax/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-impressions-from-beta",
+        "target": "/gaming/2014/eso-impressions-from-beta/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-more-rambling",
+        "target": "/gaming/2014/eso-more-rambling/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-thaumaturge",
+        "target": "/gaming/2014/ffxiv-thaumaturge/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-escape-from-lions-arch",
+        "target": "/gaming/2014/gw2-escape-from-lions-arch/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/pingzapper",
+        "target": "/gaming/2014/pingzapper/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-i-said-it-couldnt-be-done",
+        "target": "/gaming/2014/ffxiv-i-said-it-couldnt-be-done/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-ding-50-white-mage",
+        "target": "/gaming/2014/ffxiv-ding-50-white-mage/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-60-seems-reasonable",
+        "target": "/gaming/2014/wow-60-seems-reasonable/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-fates-versus-gw2-zergs",
+        "target": "/gaming/2014/ffxiv-fates-versus-gw2-zergs/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/landmark-et-al-take-my-money",
+        "target": "/gaming/2014/landmark-et-al-take-my-money/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-crafting",
+        "target": "/gaming/2014/ffxiv-crafting/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-loot-rains-from-the-sky",
+        "target": "/gaming/2014/gw2-loot-rains-from-the-sky/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/bye-end-of-nations",
+        "target": "/gaming/2014/bye-end-of-nations/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-what-does-floaty-mean",
+        "target": "/gaming/2014/eso-what-does-floaty-mean/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-ru-foreign-invasion",
+        "target": "/gaming/2014/archeage-ru-foreign-invasion/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-new-souls-in-2-7",
+        "target": "/gaming/2014/rift-new-souls-in-2-7/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/trove-is-a-better-landmark-than-landmark",
+        "target": "/gaming/2014/trove-is-a-better-landmark-than-landmark/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wildstar-no-need-for-impressions",
+        "target": "/gaming/2014/wildstar-no-need-for-impressions/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-ru-growing-on-me",
+        "target": "/gaming/2014/archeage-ru-growing-on-me/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/un-learning-invert-mouse",
+        "target": "/gaming/2014/un-learning-invert-mouse/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-teetering-on-the-edge-of-burnout",
+        "target": "/gaming/2014/ffxiv-teetering-on-the-edge-of-burnout/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/why-i-suck-at-comments",
+        "target": "/gaming/2014/why-i-suck-at-comments/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wildstar-archeage-and-landmark",
+        "target": "/gaming/2014/wildstar-archeage-and-landmark/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/claustrophobic-endgame",
+        "target": "/gaming/2014/claustrophobic-endgame/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-re-thinking-the-solo-53-warrior",
+        "target": "/gaming/2014/rift-re-thinking-the-solo-53-warrior/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wildstar-trying-out-the-classes",
+        "target": "/gaming/2014/wildstar-trying-out-the-classes/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-tempest-for-the-win",
+        "target": "/gaming/2014/rift-tempest-for-the-win/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-feature-pack",
+        "target": "/gaming/2014/gw2-feature-pack/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-almost-here",
+        "target": "/gaming/2014/eso-almost-here/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-something-new-and-shiny",
+        "target": "/gaming/2014/eso-something-new-and-shiny/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-early-days",
+        "target": "/gaming/2014/eso-early-days/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/landmark-the-dreaded-cobalt-pick",
+        "target": "/gaming/2014/landmark-the-dreaded-cobalt-pick/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-first-patch",
+        "target": "/gaming/2014/eso-first-patch/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-first-time-in-fungal-grotto",
+        "target": "/gaming/2014/eso-first-time-in-fungal-grotto/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/landmark-ancient-rootstocks-found-at-last",
+        "target": "/gaming/2014/landmark-ancient-rootstocks-found-at-last/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/technical-difficulties",
+        "target": "/gaming/2014/technical-difficulties/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-the-good-and-the-bad",
+        "target": "/gaming/2014/eso-the-good-and-the-bad/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-when-zones-look-the-same",
+        "target": "/gaming/2014/eso-when-zones-look-the-same/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-two-point-what-now",
+        "target": "/gaming/2014/ffxiv-two-point-what-now/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-dreading-logging-in",
+        "target": "/gaming/2014/gw2-dreading-logging-in/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/h1z1-you-have-got-to-be-kidding-me",
+        "target": "/gaming/2014/h1z1-you-have-got-to-be-kidding-me/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/landmark-listening-to-players",
+        "target": "/gaming/2014/landmark-listening-to-players/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-ru-still-flailing",
+        "target": "/gaming/2014/archeage-ru-still-flailing/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-feature-pack-survived",
+        "target": "/gaming/2014/gw2-feature-pack-survived/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-the-view-from-30",
+        "target": "/gaming/2014/eso-the-view-from-30/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/nbi-support-your-local-blogger",
+        "target": "/gaming/2014/nbi-support-your-local-blogger/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-founders-packs",
+        "target": "/gaming/2014/archeage-founders-packs/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-its-the-new-black",
+        "target": "/gaming/2014/archeage-its-the-new-black/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/trying-new-things-in-may",
+        "target": "/gaming/2014/trying-new-things-in-may/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-public-dungeon-boss-bots",
+        "target": "/gaming/2014/eso-public-dungeon-boss-bots/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-decision-time",
+        "target": "/gaming/2014/eso-decision-time/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-hello-world-the-trade-run",
+        "target": "/gaming/2014/archeage-hello-world-the-trade-run/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/know-why-youre-blogging",
+        "target": "/gaming/2014/know-why-youre-blogging/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-sub-cancelled-for-now",
+        "target": "/gaming/2014/eso-sub-cancelled-for-now/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-the-power-of-looting-barrels",
+        "target": "/gaming/2014/eso-the-power-of-looting-barrels/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/scheduling-posts",
+        "target": "/gaming/2014/scheduling-posts/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/pc-upgrade-annoying-but-done",
+        "target": "/gaming/2014/pc-upgrade-annoying-but-done/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-trying-out-the-arbiter-in-2-7",
+        "target": "/gaming/2014/rift-trying-out-the-arbiter-in-2-7/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-complete-one-eighty-on-subbing",
+        "target": "/gaming/2014/eso-complete-one-eighty-on-subbing/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wildstar-are-you-sure-it-gets-better",
+        "target": "/gaming/2014/wildstar-are-you-sure-it-gets-better/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-stream-on-the-road-to-cinderstone-moor",
+        "target": "/gaming/2014/archeage-stream-on-the-road-to-cinderstone-moor/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/blogging-the-hardest-way-possible",
+        "target": "/gaming/2014/blogging-the-hardest-way-possible/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-trials-a-cheat-sheet-for-ranged-dps",
+        "target": "/gaming/2014/ffxiv-trials-a-cheat-sheet-for-ranged-dps/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/may-the-mmo-crisis-month",
+        "target": "/gaming/2014/may-the-mmo-crisis-month/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/youtube-buying-twitch",
+        "target": "/gaming/2014/youtube-buying-twitch/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/black-gold-online-closed-beta-impressions",
+        "target": "/gaming/2014/black-gold-online-closed-beta-impressions/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/tuesdays-stream-esos-shadow-of-sancre-tor",
+        "target": "/gaming/2014/tuesdays-stream-esos-shadow-of-sancre-tor/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/inadequate-naming",
+        "target": "/gaming/2014/inadequate-naming/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/pve-pvp-and-racing",
+        "target": "/gaming/2014/pve-pvp-and-racing/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wildstar-on-hardcore-raiding",
+        "target": "/gaming/2014/wildstar-on-hardcore-raiding/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/age-of-conan-hey-this-game-is-fun",
+        "target": "/gaming/2014/age-of-conan-hey-this-game-is-fun/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-austera-trade-run",
+        "target": "/gaming/2014/archeage-austera-trade-run/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-pvp-jamboree",
+        "target": "/gaming/2014/archeage-pvp-jamboree/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wildstar-launch-screenshots",
+        "target": "/gaming/2014/wildstar-launch-screenshots/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wildstar-before-and-after-launch",
+        "target": "/gaming/2014/wildstar-before-and-after-launch/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/weekend-versus-weeknight-characters",
+        "target": "/gaming/2014/weekend-versus-weeknight-characters/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/leveling-jealousy",
+        "target": "/gaming/2014/leveling-jealousy/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wildstar-adventure-difficulty",
+        "target": "/gaming/2014/wildstar-adventure-difficulty/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wildstar-monday-screenshots",
+        "target": "/gaming/2014/wildstar-monday-screenshots/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wildstar-more-chore-than-game",
+        "target": "/gaming/2014/wildstar-more-chore-than-game/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wildstar-addons-i-use",
+        "target": "/gaming/2014/wildstar-addons-i-use/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wildstar-attunements-again",
+        "target": "/gaming/2014/wildstar-attunements-again/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/friday-blues",
+        "target": "/gaming/2014/friday-blues/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wildstar-dungeons-are-too-hard-for-pugs",
+        "target": "/gaming/2014/wildstar-dungeons-are-too-hard-for-pugs/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wildstar-pug-attunements",
+        "target": "/gaming/2014/wildstar-pug-attunements/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mid-june-mmo-status-report",
+        "target": "/gaming/2014/mid-june-mmo-status-report/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-yeah-you-read-that-right",
+        "target": "/gaming/2014/wow-yeah-you-read-that-right/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/summer",
+        "target": "/gaming/2014/summer/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ditching-wildstar-for-wow",
+        "target": "/gaming/2014/ditching-wildstar-for-wow/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-death-march-to-90-continues",
+        "target": "/gaming/2014/wow-death-march-to-90-continues/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-86-of-90-valley-of-the-four-winds",
+        "target": "/gaming/2014/wow-86-of-90-valley-of-the-four-winds/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-gates-of-magoo-frustration",
+        "target": "/gaming/2014/gw2-gates-of-magoo-frustration/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-87-of-90-jade-forest-continued",
+        "target": "/gaming/2014/wow-87-of-90-jade-forest-continued/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/assassins-creed-3-story-finished",
+        "target": "/gaming/2014/assassins-creed-3-story-finished/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-88-of-90-valley-of-the-four-winds",
+        "target": "/gaming/2014/wow-88-of-90-valley-of-the-four-winds/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/warlords-of-draenor-launches-nov-13-2014",
+        "target": "/gaming/2014/warlords-of-draenor-launches-nov-13-2014/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/congrats-blauggers",
+        "target": "/gaming/2014/congrats-blauggers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-witcher-2-skip-the-tutorial",
+        "target": "/gaming/2014/the-witcher-2-skip-the-tutorial/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-10-years-10-questions-10-answers",
+        "target": "/gaming/2014/wow-10-years-10-questions-10-answers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-not-a-pvp-gank-fest",
+        "target": "/gaming/2014/archeage-not-a-pvp-gank-fest/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/neverwinter-scourge-warlock-first-impression",
+        "target": "/gaming/2014/neverwinter-scourge-warlock-first-impression/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/cannot-be-tamed-gaming-answers",
+        "target": "/gaming/2014/cannot-be-tamed-gaming-answers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/identifying-as-a-gamer-redux",
+        "target": "/gaming/2014/identifying-as-a-gamer-redux/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/whats-the-best-subscription-only-mmo",
+        "target": "/gaming/2014/whats-the-best-subscription-only-mmo/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/far-cry-3",
+        "target": "/gaming/2014/far-cry-3/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/why-endgame-viable",
+        "target": "/gaming/2014/why-endgame-viable/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-okay-theres-one-bad-thing",
+        "target": "/gaming/2014/ffxiv-okay-theres-one-bad-thing/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/brief-word-about-that-controversy",
+        "target": "/gaming/2014/brief-word-about-that-controversy/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/landmarks-combat-update",
+        "target": "/gaming/2014/landmarks-combat-update/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/results-of-un-learning-invert-mouse",
+        "target": "/gaming/2014/results-of-un-learning-invert-mouse/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-crafting-my-way-back-into-it",
+        "target": "/gaming/2014/ffxiv-crafting-my-way-back-into-it/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-head-started",
+        "target": "/gaming/2014/archeage-head-started/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-calleil-diary-first-five-days",
+        "target": "/gaming/2014/archeage-calleil-diary-first-five-days/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-calleil-diary-next-four-days",
+        "target": "/gaming/2014/archeage-calleil-diary-next-four-days/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-calleil-diary-water-faring-days",
+        "target": "/gaming/2014/archeage-calleil-diary-water-faring-days/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-pve-after-level-30",
+        "target": "/gaming/2014/archeage-pve-after-level-30/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-whats-wrong-with-it",
+        "target": "/gaming/2014/archeage-whats-wrong-with-it/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ping-ponging-my-way-to-nightmare-tide",
+        "target": "/gaming/2014/ping-ponging-my-way-to-nightmare-tide/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-level-cap-at-last",
+        "target": "/gaming/2014/wow-level-cap-at-last/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-nightmare-tide",
+        "target": "/gaming/2014/rift-nightmare-tide/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/a-november-kitchen-sink-post",
+        "target": "/gaming/2014/a-november-kitchen-sink-post/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-nightmare-judgments",
+        "target": "/gaming/2014/rift-nightmare-judgments/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-excitement-waning",
+        "target": "/gaming/2014/rift-excitement-waning/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/bloggy-xmas-day-7-community-and-me",
+        "target": "/gaming/2014/bloggy-xmas-day-7-community-and-me/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-post-mortum",
+        "target": "/gaming/2014/archeage-post-mortum/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dragon-age-ate-my-life",
+        "target": "/gaming/2014/dragon-age-ate-my-life/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/massivelys-best-of-2014",
+        "target": "/gaming/2014/massivelys-best-of-2014/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/year-end-2014",
+        "target": "/gaming/2014/year-end-2014/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/elite-dangerous-opinions-and-advice",
+        "target": "/gaming/2015/elite-dangerous-opinions-and-advice/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mmorpgs-arent-dinner-parties",
+        "target": "/gaming/2015/mmorpgs-arent-dinner-parties/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/h1z1-early-access-already",
+        "target": "/gaming/2015/h1z1-early-access-already/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/h1z1-dumb-question",
+        "target": "/gaming/2015/h1z1-dumb-question/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/arbitrary-mid-january-status-update",
+        "target": "/gaming/2015/arbitrary-mid-january-status-update/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-patron-status-waning",
+        "target": "/gaming/2015/archeage-patron-status-waning/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/comparing-played-times",
+        "target": "/gaming/2015/comparing-played-times/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/aol-sucks",
+        "target": "/gaming/2015/aol-sucks/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/planetside-2-first-second-and-third-impressions",
+        "target": "/gaming/2015/planetside-2-first-second-and-third-impressions/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/goodbye-massively",
+        "target": "/gaming/2015/goodbye-massively/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/what-does-buy-to-play-really-say-about-an-mmo",
+        "target": "/gaming/2015/what-does-buy-to-play-really-say-about-an-mmo/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/hello-massivelyop",
+        "target": "/gaming/2015/hello-massivelyop/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/something-witty-like-soes-new-daybreak",
+        "target": "/gaming/2015/something-witty-like-soes-new-daybreak/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-heart-of-thorns-initial-reactions",
+        "target": "/gaming/2015/gw2-heart-of-thorns-initial-reactions/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/massively-overpowered-kickstarter",
+        "target": "/gaming/2015/massively-overpowered-kickstarter/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/crowfall-sounds-like-pvp",
+        "target": "/gaming/2015/crowfall-sounds-like-pvp/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/how-to-survive-a-game-not-a-guide",
+        "target": "/gaming/2015/how-to-survive-a-game-not-a-guide/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/things-i-do-and-dont-buy",
+        "target": "/gaming/2015/things-i-do-and-dont-buy/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-forest-and-building-games",
+        "target": "/gaming/2015/the-forest-and-building-games/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/daybreak-firings",
+        "target": "/gaming/2015/daybreak-firings/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/improving-screenshot-technology",
+        "target": "/gaming/2015/improving-screenshot-technology/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/state-of-decay-is-a-ok",
+        "target": "/gaming/2015/state-of-decay-is-a-ok/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-my-favorite-addons",
+        "target": "/gaming/2015/wow-my-favorite-addons/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/three-times-the-controversy",
+        "target": "/gaming/2015/three-times-the-controversy/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/storybricks-and-the-nature-of-the-internet",
+        "target": "/gaming/2015/storybricks-and-the-nature-of-the-internet/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/crowfall-and-much-rambling-on-game-types",
+        "target": "/gaming/2015/crowfall-and-much-rambling-on-game-types/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/february-mmo-status",
+        "target": "/gaming/2015/february-mmo-status/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/banished",
+        "target": "/gaming/2015/banished/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/liebster-award-saga-continues",
+        "target": "/gaming/2015/liebster-award-saga-continues/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-line-between-hand-crafted-and-random",
+        "target": "/gaming/2015/the-line-between-hand-crafted-and-random/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/low-energy-gaming",
+        "target": "/gaming/2015/low-energy-gaming/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-unlimited-arrives",
+        "target": "/gaming/2015/eso-unlimited-arrives/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/on-the-radar-for-2015",
+        "target": "/gaming/2015/on-the-radar-for-2015/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/progression-report-march",
+        "target": "/gaming/2015/progression-report-march/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/general-request-for-podcasters",
+        "target": "/gaming/2015/general-request-for-podcasters/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/april-camp-nanowrimo",
+        "target": "/gaming/2015/april-camp-nanowrimo/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/star-trek-online-delta-recruitment",
+        "target": "/gaming/2015/star-trek-online-delta-recruitment/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-ramping-back-up",
+        "target": "/gaming/2015/ffxiv-ramping-back-up/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-where-i-hate-dive-bombs",
+        "target": "/gaming/2015/ffxiv-where-i-hate-dive-bombs/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-ding-ding",
+        "target": "/gaming/2015/ffxiv-ding-ding/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/progression-report-april",
+        "target": "/gaming/2015/progression-report-april/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-new-to-me-dungeon-diary",
+        "target": "/gaming/2015/ffxiv-new-to-me-dungeon-diary/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/nbi-talkback-gamergate",
+        "target": "/gaming/2015/nbi-talkback-gamergate/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-nbi-and-starting-a-blog",
+        "target": "/gaming/2015/the-nbi-and-starting-a-blog/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/nbi-talkback-early-access",
+        "target": "/gaming/2015/nbi-talkback-early-access/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-bogatyrs-glamours",
+        "target": "/gaming/2015/ffxiv-bogatyrs-glamours/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-ui-wish-list-for-heavensward",
+        "target": "/gaming/2015/ffxiv-ui-wish-list-for-heavensward/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/progression-report-may-2015",
+        "target": "/gaming/2015/progression-report-may-2015/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dabbling-in-the-witcher-3",
+        "target": "/gaming/2015/dabbling-in-the-witcher-3/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/difficulty-in-the-witcher-3",
+        "target": "/gaming/2015/difficulty-in-the-witcher-3/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/blaugust-plans",
+        "target": "/gaming/2015/blaugust-plans/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/besieged-failing-is-fun",
+        "target": "/gaming/2015/besieged-failing-is-fun/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/finding-heavensward",
+        "target": "/gaming/2015/finding-heavensward/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/progression-report-june-2015",
+        "target": "/gaming/2015/progression-report-june-2015/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/why-i-didnt-buy-h1z1-for-10",
+        "target": "/gaming/2015/why-i-didnt-buy-h1z1-for-10/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dark-souls-eat-it-bell-gargoyles",
+        "target": "/gaming/2015/dark-souls-eat-it-bell-gargoyles/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/skyforge-2-hour-scorecard",
+        "target": "/gaming/2015/skyforge-2-hour-scorecard/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gearing-up-for-blaugust",
+        "target": "/gaming/2015/gearing-up-for-blaugust/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dark-souls-capra-demon-defeated",
+        "target": "/gaming/2015/dark-souls-capra-demon-defeated/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/progression-report-july-2015",
+        "target": "/gaming/2015/progression-report-july-2015/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/blaugust-2015-feeds-in-opml",
+        "target": "/gaming/2015/blaugust-2015-feeds-in-opml/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dream-enemy-base-infiltration",
+        "target": "/gaming/2015/dream-enemy-base-infiltration/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/youtube-gaming-or-something-like-it",
+        "target": "/gaming/2015/youtube-gaming-or-something-like-it/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dark-souls-gaping-dragon-defeated",
+        "target": "/gaming/2015/dark-souls-gaping-dragon-defeated/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-wild-internet-frontier",
+        "target": "/gaming/2015/the-wild-internet-frontier/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-the-primalist-announcement",
+        "target": "/gaming/2015/rift-the-primalist-announcement/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/skyforge-sound-design-matters",
+        "target": "/gaming/2015/skyforge-sound-design-matters/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-elite-dangerous-expansion-and-value",
+        "target": "/gaming/2015/the-elite-dangerous-expansion-and-value/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/reactions-to-wow-legion",
+        "target": "/gaming/2015/reactions-to-wow-legion/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/game-developers-arent-slaves",
+        "target": "/gaming/2015/game-developers-arent-slaves/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/a-year-of-blog-stats",
+        "target": "/gaming/2015/a-year-of-blog-stats/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dark-souls-chaos-witch-quelaag-defeated",
+        "target": "/gaming/2015/dark-souls-chaos-witch-quelaag-defeated/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dark-souls-moonlight-butterfly-defeated",
+        "target": "/gaming/2015/dark-souls-moonlight-butterfly-defeated/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/project-gorgon-the-new-black",
+        "target": "/gaming/2015/project-gorgon-the-new-black/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-server-merges-aka-evolution",
+        "target": "/gaming/2015/archeage-server-merges-aka-evolution/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dark-souls-screenshots",
+        "target": "/gaming/2015/dark-souls-screenshots/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/pay-to-win",
+        "target": "/gaming/2015/pay-to-win/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/quake-ctf-nostalgia-cc-vs-dps",
+        "target": "/gaming/2015/quake-ctf-nostalgia-cc-vs-dps/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dark-souls-catching-up",
+        "target": "/gaming/2015/dark-souls-catching-up/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-great-blaugust-flame-out",
+        "target": "/gaming/2015/the-great-blaugust-flame-out/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/progression-report-august",
+        "target": "/gaming/2015/progression-report-august/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/progression-report-september-2015",
+        "target": "/gaming/2015/progression-report-september-2015/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-light-it-burns",
+        "target": "/gaming/2015/the-light-it-burns/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2hot-obey-the-zerg",
+        "target": "/gaming/2015/gw2hot-obey-the-zerg/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ark-i-finally-bought-it",
+        "target": "/gaming/2015/ark-i-finally-bought-it/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ark-um-its-got-issues",
+        "target": "/gaming/2015/ark-um-its-got-issues/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/fallout-4-better-than-expected",
+        "target": "/gaming/2015/fallout-4-better-than-expected/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/trying-bound-by-flame",
+        "target": "/gaming/2015/trying-bound-by-flame/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2hot-that-was-fun",
+        "target": "/gaming/2015/gw2hot-that-was-fun/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/fallout-4-wrapping-up",
+        "target": "/gaming/2015/fallout-4-wrapping-up/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/trying-betrayer",
+        "target": "/gaming/2015/trying-betrayer/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/swtor-rise-of-the-hutt",
+        "target": "/gaming/2015/swtor-rise-of-the-hutt/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/getting-back-into-mmorpgs",
+        "target": "/gaming/2015/getting-back-into-mmorpgs/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wildstar-psa-password-length",
+        "target": "/gaming/2015/wildstar-psa-password-length/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/listmas-2015-recent-audible-listens",
+        "target": "/gaming/2015/listmas-2015-recent-audible-listens/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-year-2015",
+        "target": "/gaming/2015/games-year-2015/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/more-charts",
+        "target": "/gaming/2015/more-charts/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/on-the-radar-for-2016",
+        "target": "/gaming/2015/on-the-radar-for-2016/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ark-another-chance-new-year",
+        "target": "/gaming/2016/ark-another-chance-new-year/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/2015-winter-steam-sale-list",
+        "target": "/gaming/2016/2015-winter-steam-sale-list/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/looking-unity-5-unreal-4",
+        "target": "/gaming/2016/looking-unity-5-unreal-4/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ark-good-yet-bad",
+        "target": "/gaming/2016/ark-good-yet-bad/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/star-wars-and-x-files-spoilers",
+        "target": "/gaming/2016/star-wars-and-x-files-spoilers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dont-feel-bad-about-getting-bored",
+        "target": "/gaming/2016/dont-feel-bad-about-getting-bored/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/punishing-pvp-activity-in-pvp-games",
+        "target": "/gaming/2016/punishing-pvp-activity-in-pvp-games/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-division-open-beta",
+        "target": "/gaming/2016/the-division-open-beta/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/black-desert-tweets",
+        "target": "/gaming/2016/black-desert-tweets/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/black-desert-cash-shop",
+        "target": "/gaming/2016/black-desert-cash-shop/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/black-desert-online",
+        "target": "/gaming/2016/black-desert-online/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/goodbye-everquest-next",
+        "target": "/gaming/2016/goodbye-everquest-next/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/finally-debate-settled",
+        "target": "/gaming/2016/finally-debate-settled/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wildstars-doom",
+        "target": "/gaming/2016/wildstars-doom/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/black-desert-online-alt-friendly",
+        "target": "/gaming/2016/black-desert-online-alt-friendly/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/weight-black-desert-online",
+        "target": "/gaming/2016/weight-black-desert-online/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/low-energy-gaming-week-review",
+        "target": "/gaming/2016/low-energy-gaming-week-review/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dark-souls-iii",
+        "target": "/gaming/2016/dark-souls-iii/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dark-souls-iii-first-playthrough-complete",
+        "target": "/gaming/2016/dark-souls-iii-first-playthrough-complete/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/new",
+        "target": "/gaming/2016/new/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/overwatch-snap-judgments",
+        "target": "/gaming/2016/overwatch-snap-judgments/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/nbi-2016-thoughts-blogging",
+        "target": "/gaming/2016/nbi-2016-thoughts-blogging/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/nbi-2016-kill-hippy-gifs-fire",
+        "target": "/gaming/2016/nbi-2016-kill-hippy-gifs-fire/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/a-post-by-email-test",
+        "target": "/gaming/2016/a-post-by-email-test/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/egad-turbine",
+        "target": "/gaming/2016/egad-turbine/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/snap-judgment-riders-icarus",
+        "target": "/gaming/2016/snap-judgment-riders-icarus/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/unscheduled-move-and-stranger-things",
+        "target": "/gaming/2016/unscheduled-move-and-stranger-things/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/moving-old-pc-building-new-pc",
+        "target": "/gaming/2016/moving-old-pc-building-new-pc/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dipping-back-into-lotro",
+        "target": "/gaming/2016/dipping-back-into-lotro/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/that-new-jersey-guy-suing-niantic",
+        "target": "/gaming/2016/that-new-jersey-guy-suing-niantic/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/firefalls-in-trouble",
+        "target": "/gaming/2016/firefalls-in-trouble/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-back-to-angmar-and-evendim",
+        "target": "/gaming/2016/lotro-back-to-angmar-and-evendim/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/doom-impressions",
+        "target": "/gaming/2016/doom-impressions/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/legion-pre-expansion-invasions-are-fun",
+        "target": "/gaming/2016/legion-pre-expansion-invasions-are-fun/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/legion-ordered",
+        "target": "/gaming/2016/legion-ordered/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-volume-i-book-10-or-a-lot-of-running",
+        "target": "/gaming/2016/lotro-volume-i-book-10-or-a-lot-of-running/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-invasion-level-tally",
+        "target": "/gaming/2016/wow-invasion-level-tally/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dark-souls-character-loss",
+        "target": "/gaming/2016/dark-souls-character-loss/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/melee-classes-in-wow",
+        "target": "/gaming/2016/melee-classes-in-wow/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/sharex-uploading-screenshots",
+        "target": "/gaming/2016/sharex-uploading-screenshots/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-volume-1-book-11-search-narchuil",
+        "target": "/gaming/2016/lotro-volume-1-book-11-search-narchuil/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/early-legion-impressions",
+        "target": "/gaming/2016/early-legion-impressions/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/cant-follow-wows-story",
+        "target": "/gaming/2016/cant-follow-wows-story/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-legion-status-almost-done",
+        "target": "/gaming/2016/wow-legion-status-almost-done/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-legion-last-impressions",
+        "target": "/gaming/2016/wow-legion-last-impressions/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-importing-settings-another-computer",
+        "target": "/gaming/2016/ffxiv-importing-settings-another-computer/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-sohm-al-completed-at-last",
+        "target": "/gaming/2016/ffxiv-sohm-al-completed-at-last/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/bonding-with-characters",
+        "target": "/gaming/2016/bonding-with-characters/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-new-abilities-aery",
+        "target": "/gaming/2016/ffxiv-new-abilities-aery/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/vault-whale-gw2",
+        "target": "/gaming/2016/vault-whale-gw2/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/three-albums",
+        "target": "/gaming/2016/three-albums/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/amazons-new-world-reveal",
+        "target": "/gaming/2016/amazons-new-world-reveal/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-palace-dead-discovered",
+        "target": "/gaming/2016/ffxiv-palace-dead-discovered/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dooms-problems",
+        "target": "/gaming/2016/dooms-problems/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/hopes-predictions-new-world",
+        "target": "/gaming/2016/hopes-predictions-new-world/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/audiobooks-nanowrimo-miscellany",
+        "target": "/gaming/2016/audiobooks-nanowrimo-miscellany/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/battlefield-1-not-civilization-6",
+        "target": "/gaming/2016/battlefield-1-not-civilization-6/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/starting-ashes-ariandel-dlc",
+        "target": "/gaming/2016/starting-ashes-ariandel-dlc/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/intpipomo-friede-bugs",
+        "target": "/gaming/2016/intpipomo-friede-bugs/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/election-day-tale",
+        "target": "/gaming/2016/election-day-tale/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/snap-judgment-novus-inceptio",
+        "target": "/gaming/2016/snap-judgment-novus-inceptio/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/starting-rifts-starfall-prophecy",
+        "target": "/gaming/2016/starting-rifts-starfall-prophecy/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/devil-daggers",
+        "target": "/gaming/2016/devil-daggers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-thing-hard-yo",
+        "target": "/gaming/2016/rift-thing-hard-yo/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/nanowrimo-2016-post-mortem",
+        "target": "/gaming/2016/nanowrimo-2016-post-mortem/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/xarth-post-nano-blues",
+        "target": "/gaming/2016/xarth-post-nano-blues/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/not-much-get-excited",
+        "target": "/gaming/2016/not-much-get-excited/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/morrowinding",
+        "target": "/gaming/2016/morrowinding/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-ddo-turbine-standing-stone-games",
+        "target": "/gaming/2016/lotro-ddo-turbine-standing-stone-games/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/prestigious-endgame-viable-awards-2016",
+        "target": "/gaming/2016/prestigious-endgame-viable-awards-2016/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/played-games-2016",
+        "target": "/gaming/2016/played-games-2016/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/returning-elder-scrolls-online",
+        "target": "/gaming/2016/returning-elder-scrolls-online/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/on-the-radar-for-2017",
+        "target": "/gaming/2017/on-the-radar-for-2017/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/steam-entertainment-value-2016",
+        "target": "/gaming/2017/steam-entertainment-value-2016/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-unexpectedly-hard-dungeon",
+        "target": "/gaming/2017/ffxiv-unexpectedly-hard-dungeon/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/daybreak-closing-landmark",
+        "target": "/gaming/2017/daybreak-closing-landmark/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/top-10-videos-2016",
+        "target": "/gaming/2017/top-10-videos-2016/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-volume-1-book-12-rescuing-laerdan",
+        "target": "/gaming/2017/lotro-volume-1-book-12-rescuing-laerdan/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-level-58-slump",
+        "target": "/gaming/2017/ffxiv-level-58-slump/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-volume-1-book-13-snowpocalypse",
+        "target": "/gaming/2017/lotro-volume-1-book-13-snowpocalypse/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-finally-60",
+        "target": "/gaming/2017/ffxiv-finally-60/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/morrowind-learning-ropes",
+        "target": "/gaming/2017/morrowind-learning-ropes/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-3-0-main-scenario-complete",
+        "target": "/gaming/2017/ffxiv-3-0-main-scenario-complete/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-road-void-ark",
+        "target": "/gaming/2017/ffxiv-road-void-ark/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-void-ark-weeping-city",
+        "target": "/gaming/2017/ffxiv-void-ark-weeping-city/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/snap-judgment-conan-exiles",
+        "target": "/gaming/2017/snap-judgment-conan-exiles/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/conan-exiles-part-two",
+        "target": "/gaming/2017/conan-exiles-part-two/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/makes-good-survival-game",
+        "target": "/gaming/2017/makes-good-survival-game/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/conan-exiles-part-three",
+        "target": "/gaming/2017/conan-exiles-part-three/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/7dtd-forge-makes-difference",
+        "target": "/gaming/2017/7dtd-forge-makes-difference/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/revelation-onlines-stealth-launch",
+        "target": "/gaming/2017/revelation-onlines-stealth-launch/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/7dtd-new-game-treasure-hunt",
+        "target": "/gaming/2017/7dtd-new-game-treasure-hunt/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-repopulation-worries",
+        "target": "/gaming/2017/the-repopulation-worries/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-january-2017",
+        "target": "/gaming/2017/games-played-january-2017/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-february-2017",
+        "target": "/gaming/2017/games-played-february-2017/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-volume-1-book-14-sloggiest-journey",
+        "target": "/gaming/2017/lotro-volume-1-book-14-sloggiest-journey/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/amazons-new-world-part-two",
+        "target": "/gaming/2017/amazons-new-world-part-two/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/snap-judgment-revelation-online",
+        "target": "/gaming/2017/snap-judgment-revelation-online/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/7dtd-great-minibike-catastrophe",
+        "target": "/gaming/2017/7dtd-great-minibike-catastrophe/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/snap-judgment-shroud-avatar-free-trial",
+        "target": "/gaming/2017/snap-judgment-shroud-avatar-free-trial/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mass-effected",
+        "target": "/gaming/2017/mass-effected/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/secret-world-legends-announced",
+        "target": "/gaming/2017/secret-world-legends-announced/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mass-effect-1-replayed-spoilers",
+        "target": "/gaming/2017/mass-effect-1-replayed-spoilers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mass-effect-andromeda-impressions",
+        "target": "/gaming/2017/mass-effect-andromeda-impressions/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mass-effect-2-halfway-point-spoilers",
+        "target": "/gaming/2017/mass-effect-2-halfway-point-spoilers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mass-effect-2-replayed",
+        "target": "/gaming/2017/mass-effect-2-replayed/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mass-effect-3-halfway-point-spoilers",
+        "target": "/gaming/2017/mass-effect-3-halfway-point-spoilers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mass-effect-3-finished-spoilers",
+        "target": "/gaming/2017/mass-effect-3-finished-spoilers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mass-effect-andromeda-50-hours",
+        "target": "/gaming/2017/mass-effect-andromeda-50-hours/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/persona-5-streaming",
+        "target": "/gaming/2017/persona-5-streaming/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-march-2017",
+        "target": "/gaming/2017/games-played-march-2017/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/international-grammar-punting",
+        "target": "/gaming/2017/international-grammar-punting/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/story-video-games",
+        "target": "/gaming/2017/story-video-games/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rogue-one-spoilers",
+        "target": "/gaming/2017/rogue-one-spoilers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mass-effect-andromeda-halfway-spoilers",
+        "target": "/gaming/2017/mass-effect-andromeda-halfway-spoilers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mass-effect-andromeda-completed",
+        "target": "/gaming/2017/mass-effect-andromeda-completed/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ashes-creation-mandatory-post",
+        "target": "/gaming/2017/ashes-creation-mandatory-post/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/13-reasons-spoilers",
+        "target": "/gaming/2017/13-reasons-spoilers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-april-2017",
+        "target": "/gaming/2017/games-played-april-2017/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/frostkeeps-rend-announced",
+        "target": "/gaming/2017/frostkeeps-rend-announced/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/battlefield-1-authenticity",
+        "target": "/gaming/2017/battlefield-1-authenticity/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/assassins-apprentice-robin-hobb",
+        "target": "/gaming/2017/assassins-apprentice-robin-hobb/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archeage-random-screen-shots",
+        "target": "/gaming/2017/archeage-random-screen-shots/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-shannara-chronicles",
+        "target": "/gaming/2017/the-shannara-chronicles/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/snap-judgment-quake-champions-open-beta",
+        "target": "/gaming/2017/snap-judgment-quake-champions-open-beta/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/off-wizard-scott-meyer",
+        "target": "/gaming/2017/off-wizard-scott-meyer/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/grimdark",
+        "target": "/gaming/2017/grimdark/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wild-west-online-announced",
+        "target": "/gaming/2017/wild-west-online-announced/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/accountant-bourne-10-cloverfield-lane",
+        "target": "/gaming/2017/accountant-bourne-10-cloverfield-lane/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/destiny-2-gameplay-reveal-event",
+        "target": "/gaming/2017/destiny-2-gameplay-reveal-event/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/cryptonomicon-neil-stephenson",
+        "target": "/gaming/2017/cryptonomicon-neil-stephenson/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/chris-cornell-audioslave",
+        "target": "/gaming/2017/chris-cornell-audioslave/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/man-high-castle-s01e01",
+        "target": "/gaming/2017/man-high-castle-s01e01/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/why-solo-mmorpgs",
+        "target": "/gaming/2017/why-solo-mmorpgs/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/note-comment-approval",
+        "target": "/gaming/2017/note-comment-approval/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/seveneves-neal-stephenson",
+        "target": "/gaming/2017/seveneves-neal-stephenson/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/far-cry-5-outrage-hype",
+        "target": "/gaming/2017/far-cry-5-outrage-hype/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-may-2017",
+        "target": "/gaming/2017/games-played-may-2017/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/life-really-want-roger-waters",
+        "target": "/gaming/2017/life-really-want-roger-waters/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/stormbloods-acomin",
+        "target": "/gaming/2017/stormbloods-acomin/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/prince-thorns-mark-lawrence",
+        "target": "/gaming/2017/prince-thorns-mark-lawrence/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/cryptics-new-mmorpg",
+        "target": "/gaming/2017/cryptics-new-mmorpg/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/fractured-announced",
+        "target": "/gaming/2017/fractured-announced/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/stormblood-first-impressions",
+        "target": "/gaming/2017/stormblood-first-impressions/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-finding-fun-without-instances",
+        "target": "/gaming/2017/ffxiv-finding-fun-without-instances/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-antitower-3-2-finished",
+        "target": "/gaming/2017/ffxiv-antitower-3-2-finished/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-sohr-khai-palace-dead",
+        "target": "/gaming/2017/ffxiv-sohr-khai-palace-dead/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-stormblood-launch-day-pvp",
+        "target": "/gaming/2017/ffxiv-stormblood-launch-day-pvp/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-heavensward-happened",
+        "target": "/gaming/2017/ffxiv-heavensward-happened/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-dun-scaith",
+        "target": "/gaming/2017/ffxiv-dun-scaith/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/secret-world-legends-quick-look",
+        "target": "/gaming/2017/secret-world-legends-quick-look/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-heavensward-completed",
+        "target": "/gaming/2017/ffxiv-heavensward-completed/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-stormblood-begins",
+        "target": "/gaming/2017/ffxiv-stormblood-begins/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-june-2017",
+        "target": "/gaming/2017/games-played-june-2017/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-stormblood-pictures",
+        "target": "/gaming/2017/ffxiv-stormblood-pictures/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-stormblood-pictures-2",
+        "target": "/gaming/2017/ffxiv-stormblood-pictures-2/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-stormblood-snippets",
+        "target": "/gaming/2017/ffxiv-stormblood-snippets/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-responding-criticisms",
+        "target": "/gaming/2017/ffxiv-responding-criticisms/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-even-stormblood-pictures",
+        "target": "/gaming/2017/ffxiv-even-stormblood-pictures/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/on-side-quests",
+        "target": "/gaming/2017/on-side-quests/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/solving-long-dps-queues",
+        "target": "/gaming/2017/solving-long-dps-queues/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-stormblood-story-complete",
+        "target": "/gaming/2017/ffxiv-stormblood-story-complete/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-stormblood-story-summary",
+        "target": "/gaming/2017/ffxiv-stormblood-story-summary/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-mordor-soon",
+        "target": "/gaming/2017/lotro-mordor-soon/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ranking-play-personalities",
+        "target": "/gaming/2017/ranking-play-personalities/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-collectables-grokked",
+        "target": "/gaming/2017/ffxiv-collectables-grokked/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/shelf-life-mmorpg",
+        "target": "/gaming/2017/shelf-life-mmorpg/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-bard-4-0-thoughts",
+        "target": "/gaming/2017/ffxiv-bard-4-0-thoughts/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-july-2017",
+        "target": "/gaming/2017/games-played-july-2017/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/guild-wars-2-path-fire-announced",
+        "target": "/gaming/2017/guild-wars-2-path-fire-announced/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-latest-adventures",
+        "target": "/gaming/2017/ffxiv-latest-adventures/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-thoughts-1-0",
+        "target": "/gaming/2017/ffxiv-thoughts-1-0/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/snap-judgment-dark-light",
+        "target": "/gaming/2017/snap-judgment-dark-light/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-road-mordor-tweetstorm",
+        "target": "/gaming/2017/lotro-road-mordor-tweetstorm/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/meet-cat",
+        "target": "/gaming/2017/meet-cat/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-mordor-expansion-thoughts",
+        "target": "/gaming/2017/lotro-mordor-expansion-thoughts/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-thirteenth-doctor",
+        "target": "/gaming/2017/the-thirteenth-doctor/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-mordor-moria",
+        "target": "/gaming/2017/lotro-mordor-moria/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/e3-2017-thoughts",
+        "target": "/gaming/2017/e3-2017-thoughts/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-path-fire-demo-rage-quittening",
+        "target": "/gaming/2017/gw2-path-fire-demo-rage-quittening/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-path-fire-demo-take-two",
+        "target": "/gaming/2017/gw2-path-fire-demo-take-two/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-hunter-level-58",
+        "target": "/gaming/2017/lotro-hunter-level-58/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-hot-progress-thoughts",
+        "target": "/gaming/2017/gw2-hot-progress-thoughts/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-rangering-hot",
+        "target": "/gaming/2017/gw2-rangering-hot/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-hot-chapters-12-14",
+        "target": "/gaming/2017/gw2-hot-chapters-12-14/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-hot-chapters-15-16",
+        "target": "/gaming/2017/gw2-hot-chapters-15-16/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/random-friday-tidbits",
+        "target": "/gaming/2017/random-friday-tidbits/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-level-59-khazad-dum",
+        "target": "/gaming/2017/lotro-level-59-khazad-dum/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dimrill-dale-eclipse-jealosy",
+        "target": "/gaming/2017/dimrill-dale-eclipse-jealosy/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/what-should-you-stream",
+        "target": "/gaming/2017/what-should-you-stream/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/return-ringed-city-dlc",
+        "target": "/gaming/2017/return-ringed-city-dlc/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/getting-lost-mmos",
+        "target": "/gaming/2017/getting-lost-mmos/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-stormblood-story-deep-dive",
+        "target": "/gaming/2017/ffxiv-stormblood-story-deep-dive/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/comfort-mmorpgs",
+        "target": "/gaming/2017/comfort-mmorpgs/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-mist-2017",
+        "target": "/gaming/2017/the-mist-2017/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-rising-event",
+        "target": "/gaming/2017/ffxiv-rising-event/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ashes-creation-combat",
+        "target": "/gaming/2017/ashes-creation-combat/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/subnautica",
+        "target": "/gaming/2017/subnautica/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lockbox-expectations",
+        "target": "/gaming/2017/lockbox-expectations/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/destiny-2-anti-hype",
+        "target": "/gaming/2017/destiny-2-anti-hype/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-august-2017",
+        "target": "/gaming/2017/games-played-august-2017/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-yo-kai-grinding",
+        "target": "/gaming/2017/ffxiv-yo-kai-grinding/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/week-of-movies",
+        "target": "/gaming/2017/week-of-movies/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/line-6-spider-v-30-practice-amp",
+        "target": "/gaming/2017/line-6-spider-v-30-practice-amp/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/elite-dangerous-horizons",
+        "target": "/gaming/2017/elite-dangerous-horizons/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-season-3-episode-1-shadows",
+        "target": "/gaming/2017/gw2-season-3-episode-1-shadows/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-september-2017",
+        "target": "/gaming/2017/games-played-september-2017/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-season-3-episode-2-rising-flames",
+        "target": "/gaming/2017/gw2-season-3-episode-2-rising-flames/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-season-3-episode-3-crack-ice",
+        "target": "/gaming/2017/gw2-season-3-episode-3-crack-ice/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-season-3-episode-4-head-snake",
+        "target": "/gaming/2017/gw2-season-3-episode-4-head-snake/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-season-3-episode-5-flashpoint",
+        "target": "/gaming/2017/gw2-season-3-episode-5-flashpoint/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-season-3-episode-6-one-path-ends",
+        "target": "/gaming/2017/gw2-season-3-episode-6-one-path-ends/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-path-fire-story-completed",
+        "target": "/gaming/2017/gw2-path-fire-story-completed/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-4-1-legend-returns",
+        "target": "/gaming/2017/ffxiv-4-1-legend-returns/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-4-1-features",
+        "target": "/gaming/2017/ffxiv-4-1-features/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-fun-lasted",
+        "target": "/gaming/2017/gw2-fun-lasted/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-raids-n-things",
+        "target": "/gaming/2017/ffxiv-raids-n-things/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/passing-pc-destiny-2",
+        "target": "/gaming/2017/passing-pc-destiny-2/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-loot-window-screed",
+        "target": "/gaming/2017/ffxiv-loot-window-screed/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-doing-dailies",
+        "target": "/gaming/2017/gw2-doing-dailies/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/nanowrimo-prep",
+        "target": "/gaming/2017/nanowrimo-prep/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dark-tower-good-vs-evil-edition",
+        "target": "/gaming/2017/dark-tower-good-vs-evil-edition/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-october-2017",
+        "target": "/gaming/2017/games-played-october-2017/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/snap-judgment-necropolis-brutal-edition",
+        "target": "/gaming/2017/snap-judgment-necropolis-brutal-edition/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-battle-azeroth",
+        "target": "/gaming/2017/wow-battle-azeroth/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-story-time",
+        "target": "/gaming/2017/gw2-story-time/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-living-world-season-4-announced",
+        "target": "/gaming/2017/gw2-living-world-season-4-announced/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/catching-ccp-gazillion-etc",
+        "target": "/gaming/2017/catching-ccp-gazillion-etc/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/blogging-world-hates-blogs",
+        "target": "/gaming/2017/blogging-world-hates-blogs/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-thought-2006",
+        "target": "/gaming/2017/wow-thought-2006/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/guild-wars-1",
+        "target": "/gaming/2017/guild-wars-1/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/writing-versus-story",
+        "target": "/gaming/2017/writing-versus-story/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/social-jumping",
+        "target": "/gaming/2017/social-jumping/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-november-2017",
+        "target": "/gaming/2017/games-played-november-2017/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-living-world-season-4-daybreak",
+        "target": "/gaming/2017/gw2-living-world-season-4-daybreak/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/blogosphere-strikes-back",
+        "target": "/gaming/2017/blogosphere-strikes-back/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/snap-judgment-kritika-online",
+        "target": "/gaming/2017/snap-judgment-kritika-online/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/snap-judgment-warframe",
+        "target": "/gaming/2017/snap-judgment-warframe/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/last-jedi-spoilers",
+        "target": "/gaming/2017/last-jedi-spoilers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/divinity-original-sin-enhanced-edition",
+        "target": "/gaming/2017/divinity-original-sin-enhanced-edition/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/endgame-viable-awards-2017",
+        "target": "/gaming/2017/endgame-viable-awards-2017/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-year-end-2017",
+        "target": "/gaming/2018/games-played-year-end-2017/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/on-the-radar-for-2018",
+        "target": "/gaming/2018/on-the-radar-for-2018/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/top-10-videos-2017",
+        "target": "/gaming/2018/top-10-videos-2017/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/single-player-holidays",
+        "target": "/gaming/2018/single-player-holidays/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/free-book-weekend",
+        "target": "/gaming/2018/free-book-weekend/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ark-revisited-two-years-later",
+        "target": "/gaming/2018/ark-revisited-two-years-later/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/youtube-death-hobby",
+        "target": "/gaming/2018/youtube-death-hobby/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mmo-news-roundup",
+        "target": "/gaming/2018/mmo-news-roundup/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-prime-late",
+        "target": "/gaming/2018/rift-prime-late/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mmo-news-roundup-2",
+        "target": "/gaming/2018/mmo-news-roundup-2/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-4-2-rise-new-sun-patch-notes",
+        "target": "/gaming/2018/ffxiv-4-2-rise-new-sun-patch-notes/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mmo-news-reactions-3",
+        "target": "/gaming/2018/mmo-news-reactions-3/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/whats-console-exclusives",
+        "target": "/gaming/2018/whats-console-exclusives/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-january-2018",
+        "target": "/gaming/2018/games-played-january-2018/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mmo-news-reactions-4",
+        "target": "/gaming/2018/mmo-news-reactions-4/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/a-podcast-experiment",
+        "target": "/gaming/2018/a-podcast-experiment/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-leveling-anew",
+        "target": "/gaming/2018/rift-leveling-anew/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mmo-news-reactions-5",
+        "target": "/gaming/2018/mmo-news-reactions-5/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-4-2-rise-new-sun-completed-spoilers",
+        "target": "/gaming/2018/ffxiv-4-2-rise-new-sun-completed-spoilers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ashes-creation-live-stream",
+        "target": "/gaming/2018/ashes-creation-live-stream/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/kitchen-sink-post-6",
+        "target": "/gaming/2018/kitchen-sink-post-6/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/hard-get-back-eso",
+        "target": "/gaming/2018/hard-get-back-eso/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mmo-roundup-7",
+        "target": "/gaming/2018/mmo-roundup-7/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-february-2018",
+        "target": "/gaming/2018/games-played-february-2018/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/life-is-strange",
+        "target": "/gaming/2018/life-is-strange/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mmo-roundup-8",
+        "target": "/gaming/2018/mmo-roundup-8/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rift-prime-the-first-week",
+        "target": "/gaming/2018/rift-prime-the-first-week/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/project-gorgon-acquired",
+        "target": "/gaming/2018/project-gorgon-acquired/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mmo-roundup-9",
+        "target": "/gaming/2018/mmo-roundup-9/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/everquest-coirnav-diary-complete-probably",
+        "target": "/gaming/2018/everquest-coirnav-diary-complete-probably/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mmo-roundup-10",
+        "target": "/gaming/2018/mmo-roundup-10/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/secret-world-legends-revisited",
+        "target": "/gaming/2018/secret-world-legends-revisited/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mmo-roundup-11",
+        "target": "/gaming/2018/mmo-roundup-11/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-march-2018",
+        "target": "/gaming/2018/games-played-march-2018/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/weeklies-haven-week",
+        "target": "/gaming/2018/weeklies-haven-week/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/kingdom-come-deliverance-completed",
+        "target": "/gaming/2018/kingdom-come-deliverance-completed/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/weeklies-swl-anti-pax-batteries",
+        "target": "/gaming/2018/weeklies-swl-anti-pax-batteries/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-end-of-life",
+        "target": "/gaming/2018/ffxiv-end-of-life/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/weeklies-eso-swl",
+        "target": "/gaming/2018/weeklies-eso-swl/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-a-bug-in-the-system-spoilers",
+        "target": "/gaming/2018/gw2-a-bug-in-the-system-spoilers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-morrowind-story-spoilers",
+        "target": "/gaming/2018/eso-morrowind-story-spoilers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/weeklies-oligarchgate-the-one-about-daybreak",
+        "target": "/gaming/2018/weeklies-oligarchgate-the-one-about-daybreak/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/monthly-recap-april-2018",
+        "target": "/gaming/2018/monthly-recap-april-2018/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/week-end-eq-royale-new-world",
+        "target": "/gaming/2018/week-end-eq-royale-new-world/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-first-time-i-played-fortnite-battle-royale",
+        "target": "/gaming/2018/the-first-time-i-played-fortnite-battle-royale/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/fortnite-the-followup",
+        "target": "/gaming/2018/fortnite-the-followup/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/week-end-conan-exiles-wild-west-online",
+        "target": "/gaming/2018/week-end-conan-exiles-wild-west-online/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ryse-son-of-rome",
+        "target": "/gaming/2018/ryse-son-of-rome/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ffxiv-storys-end",
+        "target": "/gaming/2018/ffxiv-storys-end/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/week-end-albion-phoebes",
+        "target": "/gaming/2018/week-end-albion-phoebes/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ddo-likes-and-dislikes",
+        "target": "/gaming/2018/ddo-likes-and-dislikes/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gdpr-compliance-missive",
+        "target": "/gaming/2018/gdpr-compliance-missive/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/week-end-summerset-ffxiv-4-3",
+        "target": "/gaming/2018/week-end-summerset-ffxiv-4-3/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/what-the-heck-is-dauntless",
+        "target": "/gaming/2018/what-the-heck-is-dauntless/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/week-end-fallout-76-because-seo",
+        "target": "/gaming/2018/week-end-fallout-76-because-seo/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/monthly-recap-may-2018",
+        "target": "/gaming/2018/monthly-recap-may-2018/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/week-end-steam-flood",
+        "target": "/gaming/2018/week-end-steam-flood/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/e3-anthem-sekiro-cyberpunk-2077-fallout-76",
+        "target": "/gaming/2018/e3-anthem-sekiro-cyberpunk-2077-fallout-76/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/e3-square-enix-ubisoft-sony",
+        "target": "/gaming/2018/e3-square-enix-ubisoft-sony/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/week-end-wall-to-wall-e3",
+        "target": "/gaming/2018/week-end-wall-to-wall-e3/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/on-blogging-more",
+        "target": "/gaming/2018/on-blogging-more/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/week-end-who-pitch-forks",
+        "target": "/gaming/2018/week-end-who-pitch-forks/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/controller-woes-aging-and-d-pads",
+        "target": "/gaming/2018/controller-woes-aging-and-d-pads/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dark-souls-remastered-edition",
+        "target": "/gaming/2018/dark-souls-remastered-edition/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/week-end-trion-gw2",
+        "target": "/gaming/2018/week-end-trion-gw2/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/monthly-recap-june-2018",
+        "target": "/gaming/2018/monthly-recap-june-2018/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-not-forewarned-enough",
+        "target": "/gaming/2018/gw2-not-forewarned-enough/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-writers-fired",
+        "target": "/gaming/2018/gw2-writers-fired/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/week-end-defiance-2050-i-guess",
+        "target": "/gaming/2018/week-end-defiance-2050-i-guess/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/blaugust-reborn-is-happening",
+        "target": "/gaming/2018/blaugust-reborn-is-happening/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/demons-souls-briefly",
+        "target": "/gaming/2018/demons-souls-briefly/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/week-end-a-pretty-boring-week",
+        "target": "/gaming/2018/week-end-a-pretty-boring-week/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/bioshock-remastered",
+        "target": "/gaming/2018/bioshock-remastered/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/week-end-wow-8-0",
+        "target": "/gaming/2018/week-end-wow-8-0/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-questioning-my-belonging-in-mmorpgs",
+        "target": "/gaming/2018/wow-questioning-my-belonging-in-mmorpgs/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/week-end-thorny-battle",
+        "target": "/gaming/2018/week-end-thorny-battle/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/flipping-the-tables-for-blaugust",
+        "target": "/gaming/2018/flipping-the-tables-for-blaugust/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/primary-care-doctors",
+        "target": "/gaming/2018/primary-care-doctors/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-medical-report",
+        "target": "/gaming/2018/the-medical-report/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/blaugust-introduction",
+        "target": "/gaming/2018/blaugust-introduction/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gaming-goals-arent-fun-for-me-blaugust-2",
+        "target": "/gaming/2018/gaming-goals-arent-fun-for-me-blaugust-2/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/blog-post-topic-ideas",
+        "target": "/gaming/2018/blog-post-topic-ideas/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/monthly-recap-july-2018",
+        "target": "/gaming/2018/monthly-recap-july-2018/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-cataract-report-blaugust-3",
+        "target": "/gaming/2018/the-cataract-report-blaugust-3/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/those-wow-cinematics-blaugust-4",
+        "target": "/gaming/2018/those-wow-cinematics-blaugust-4/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/new-writing-process-didnt-work-blaugust-5",
+        "target": "/gaming/2018/new-writing-process-didnt-work-blaugust-5/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/i-wish-eq2-would-explain-more-blaugust-6",
+        "target": "/gaming/2018/i-wish-eq2-would-explain-more-blaugust-6/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/back-yard-bird-watching-blaugust-7",
+        "target": "/gaming/2018/back-yard-bird-watching-blaugust-7/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-hand-report-blaugust-8",
+        "target": "/gaming/2018/the-hand-report-blaugust-8/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/nineties-news-nostalgia-on-netflix-blaugust-9",
+        "target": "/gaming/2018/nineties-news-nostalgia-on-netflix-blaugust-9/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/more-netflix-documentaries-blaugust-10",
+        "target": "/gaming/2018/more-netflix-documentaries-blaugust-10/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/my-oldest-computer-files-blaugust-11",
+        "target": "/gaming/2018/my-oldest-computer-files-blaugust-11/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/diablo-iii-for-the-first-time-blaugust-12",
+        "target": "/gaming/2018/diablo-iii-for-the-first-time-blaugust-12/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/battle-for-azeroth-impulse-buy-blaugust-13",
+        "target": "/gaming/2018/battle-for-azeroth-impulse-buy-blaugust-13/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-siege-of-lordaeron-blaugust-14",
+        "target": "/gaming/2018/the-siege-of-lordaeron-blaugust-14/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/2-5-hrs-into-battle-for-azeroth-blaugust-15",
+        "target": "/gaming/2018/2-5-hrs-into-battle-for-azeroth-blaugust-15/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/finding-teldrassil-blaugust-16",
+        "target": "/gaming/2018/finding-teldrassil-blaugust-16/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/realm-pop-blaugust-17",
+        "target": "/gaming/2018/realm-pop-blaugust-17/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/developer-appreciation-overthinking-blaugust-18",
+        "target": "/gaming/2018/developer-appreciation-overthinking-blaugust-18/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/sunday-browns-and-disenchanted-disappointment-blaugust-19",
+        "target": "/gaming/2018/sunday-browns-and-disenchanted-disappointment-blaugust-19/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/drustvar-screenshots-blaugust-20",
+        "target": "/gaming/2018/drustvar-screenshots-blaugust-20/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/drustvar-complete-mastodon-blaugust-21",
+        "target": "/gaming/2018/drustvar-complete-mastodon-blaugust-21/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/that-amazon-new-world-preview-blaugust-22",
+        "target": "/gaming/2018/that-amazon-new-world-preview-blaugust-22/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/news-ashes-torchlight-twitch-blaugust-23",
+        "target": "/gaming/2018/news-ashes-torchlight-twitch-blaugust-23/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/where-exactly-is-this-battle-blaugust-24",
+        "target": "/gaming/2018/where-exactly-is-this-battle-blaugust-24/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/stormsong-valley-and-on-accident-blaugust-25",
+        "target": "/gaming/2018/stormsong-valley-and-on-accident-blaugust-25/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/a-logical-dead-end-blaugust-26",
+        "target": "/gaming/2018/a-logical-dead-end-blaugust-26/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/side-quests-and-spigots-blaugust-27",
+        "target": "/gaming/2018/side-quests-and-spigots-blaugust-27/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/cyberpunk-2077-reaction-blaugust-28",
+        "target": "/gaming/2018/cyberpunk-2077-reaction-blaugust-28/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/hard-drive-shopping-blaugust-29",
+        "target": "/gaming/2018/hard-drive-shopping-blaugust-29/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/battle-for-azeroth-119-update-blaugust-30",
+        "target": "/gaming/2018/battle-for-azeroth-119-update-blaugust-30/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/blaugust-performance-self-review-blaugust-31",
+        "target": "/gaming/2018/blaugust-performance-self-review-blaugust-31/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/monthly-recap-august-2018",
+        "target": "/gaming/2018/monthly-recap-august-2018/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-finding-jainas-trail-again",
+        "target": "/gaming/2018/wow-finding-jainas-trail-again/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/week-end-carbine-ccp-daybreak-witcher",
+        "target": "/gaming/2018/week-end-carbine-ccp-daybreak-witcher/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/new-lord-of-the-rings-mmo",
+        "target": "/gaming/2018/new-lord-of-the-rings-mmo/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/resuming-dark-souls-in-the-worst-place",
+        "target": "/gaming/2018/resuming-dark-souls-in-the-worst-place/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-witchers-hard-easy-difficulty",
+        "target": "/gaming/2018/the-witchers-hard-easy-difficulty/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/cataract-surgery-day",
+        "target": "/gaming/2018/cataract-surgery-day/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/cataract-removed",
+        "target": "/gaming/2018/cataract-removed/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/day-two-without-cataract",
+        "target": "/gaming/2018/day-two-without-cataract/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/day-three",
+        "target": "/gaming/2018/day-three/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/day-four",
+        "target": "/gaming/2018/day-four/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/telltale-and-last-of-us",
+        "target": "/gaming/2018/telltale-and-last-of-us/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/comfy-questions-and-answers-part-1",
+        "target": "/gaming/2018/comfy-questions-and-answers-part-1/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/comfy-questions-and-answers-part-2",
+        "target": "/gaming/2018/comfy-questions-and-answers-part-2/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/comfy-questions-and-answers-part-3",
+        "target": "/gaming/2018/comfy-questions-and-answers-part-3/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-september-2018",
+        "target": "/gaming/2018/games-played-september-2018/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/fallout-4-podcast-completed",
+        "target": "/gaming/2018/fallout-4-podcast-completed/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/battle-for-azeroth-conclusions",
+        "target": "/gaming/2018/battle-for-azeroth-conclusions/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-a-star-to-guide-us",
+        "target": "/gaming/2018/gw2-a-star-to-guide-us/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/bless-online-launching-for-reals",
+        "target": "/gaming/2018/bless-online-launching-for-reals/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/snap-judgment-maplestory-2",
+        "target": "/gaming/2018/snap-judgment-maplestory-2/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/not-dead-yet-the-inactivity-report",
+        "target": "/gaming/2018/not-dead-yet-the-inactivity-report/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-last-of-us-youtube-and-a-ripsaw",
+        "target": "/gaming/2018/the-last-of-us-youtube-and-a-ripsaw/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/trion-sold-to-who-now",
+        "target": "/gaming/2018/trion-sold-to-who-now/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/snap-judgment-bless-online",
+        "target": "/gaming/2018/snap-judgment-bless-online/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/video-game-museums",
+        "target": "/gaming/2018/video-game-museums/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-october-2018",
+        "target": "/gaming/2018/games-played-october-2018/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mandatory-blizzcon-post",
+        "target": "/gaming/2018/mandatory-blizzcon-post/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-legendary-server-malaise",
+        "target": "/gaming/2018/lotro-legendary-server-malaise/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/my-grandfather-on-armistice-day-100-years-ago",
+        "target": "/gaming/2018/my-grandfather-on-armistice-day-100-years-ago/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/november-in-review",
+        "target": "/gaming/2018/november-in-review/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-november-2018",
+        "target": "/gaming/2018/games-played-november-2018/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rimworld-first-impressions",
+        "target": "/gaming/2018/rimworld-first-impressions/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/another-year-over",
+        "target": "/gaming/2018/another-year-over/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/fighting-early-access-disasters",
+        "target": "/gaming/2018/fighting-early-access-disasters/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/endgame-viable-awards-2018",
+        "target": "/gaming/2018/endgame-viable-awards-2018/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-2018",
+        "target": "/gaming/2019/games-played-2018/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/rimworld-anecdotes",
+        "target": "/gaming/2019/rimworld-anecdotes/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/on-the-radar-for-2019",
+        "target": "/gaming/2019/on-the-radar-for-2019/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/my-top-ten-watched-videos-of-2018",
+        "target": "/gaming/2019/my-top-ten-watched-videos-of-2018/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/a-train-wreck",
+        "target": "/gaming/2019/a-train-wreck/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/cynicism-vs-observation",
+        "target": "/gaming/2019/cynicism-vs-observation/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/audio-talk-is-the-coolest",
+        "target": "/gaming/2019/audio-talk-is-the-coolest/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/my-brief-dwarf-fortress-time",
+        "target": "/gaming/2019/my-brief-dwarf-fortress-time/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/return-to-subnautica",
+        "target": "/gaming/2019/return-to-subnautica/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/building-vs-simulation-dwarf-fortress",
+        "target": "/gaming/2019/building-vs-simulation-dwarf-fortress/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-fall-of-bekarlogem-dwarf-fortress",
+        "target": "/gaming/2019/the-fall-of-bekarlogem-dwarf-fortress/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-all-or-nothing-completed",
+        "target": "/gaming/2019/gw2-all-or-nothing-completed/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-fall-of-guzilingiz-dwarf-fortress",
+        "target": "/gaming/2019/the-fall-of-guzilingiz-dwarf-fortress/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gusilingiz-the-videos",
+        "target": "/gaming/2019/gusilingiz-the-videos/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mini-studio-development",
+        "target": "/gaming/2019/mini-studio-development/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-january-2019",
+        "target": "/gaming/2019/games-played-january-2019/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/anthem-open-demo-notes",
+        "target": "/gaming/2019/anthem-open-demo-notes/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/amostitdun-dwarf-fortress",
+        "target": "/gaming/2019/amostitdun-dwarf-fortress/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/avuzestel-dwarf-fortress",
+        "target": "/gaming/2019/avuzestel-dwarf-fortress/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/cultural-perspective-on-the-activision-blizzard-news",
+        "target": "/gaming/2019/cultural-perspective-on-the-activision-blizzard-news/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/dastotdeg-dwarf-fortress",
+        "target": "/gaming/2019/dastotdeg-dwarf-fortress/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/arenanet-layoffs",
+        "target": "/gaming/2019/arenanet-layoffs/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/an-influencer-was-born",
+        "target": "/gaming/2019/an-influencer-was-born/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/two-kinds-of-gamers",
+        "target": "/gaming/2019/two-kinds-of-gamers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gatiztun-dwarf-fortress",
+        "target": "/gaming/2019/gatiztun-dwarf-fortress/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-division-2-open-beta",
+        "target": "/gaming/2019/the-division-2-open-beta/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-february-2019",
+        "target": "/gaming/2019/games-played-february-2019/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/critical-role-and-dd",
+        "target": "/gaming/2019/critical-role-and-dd/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/my-first-chromebook",
+        "target": "/gaming/2019/my-first-chromebook/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/google-stadia-announcement",
+        "target": "/gaming/2019/google-stadia-announcement/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/sekiro-initial-thoughts",
+        "target": "/gaming/2019/sekiro-initial-thoughts/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-march-2019",
+        "target": "/gaming/2019/games-played-march-2019/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/albion-online-impressions",
+        "target": "/gaming/2019/albion-online-impressions/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/city-of-heroes-drama",
+        "target": "/gaming/2019/city-of-heroes-drama/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/complicated-character-creation",
+        "target": "/gaming/2019/complicated-character-creation/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-april-2019",
+        "target": "/gaming/2019/games-played-april-2019/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/game-of-thrones-notes-season-8-episodes-1-3",
+        "target": "/gaming/2019/game-of-thrones-notes-season-8-episodes-1-3/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/game-of-thrones-notes-season-8-episode-4",
+        "target": "/gaming/2019/game-of-thrones-notes-season-8-episode-4/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/game-of-thrones-notes-season-8-episode-5",
+        "target": "/gaming/2019/game-of-thrones-notes-season-8-episode-5/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/sekiro-completed",
+        "target": "/gaming/2019/sekiro-completed/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/sekiro-blind-playthrough-index",
+        "target": "/gaming/2019/sekiro-blind-playthrough-index/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-may-2019",
+        "target": "/gaming/2019/games-played-may-2019/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/e3-non-reaction",
+        "target": "/gaming/2019/e3-non-reaction/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/amazon-gaming-chair",
+        "target": "/gaming/2019/amazon-gaming-chair/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/passing-on-shadowbringers",
+        "target": "/gaming/2019/passing-on-shadowbringers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/bloodborne-impressions-ps4",
+        "target": "/gaming/2019/bloodborne-impressions-ps4/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-june-2019",
+        "target": "/gaming/2019/games-played-june-2019/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/can-i-trust-the-trust-system",
+        "target": "/gaming/2019/can-i-trust-the-trust-system/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/blaugust-is-next-month",
+        "target": "/gaming/2019/blaugust-is-next-month/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/setting-up-a-stream",
+        "target": "/gaming/2019/setting-up-a-stream/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/blaugust-game-schedule",
+        "target": "/gaming/2019/blaugust-game-schedule/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/of-apple-aac-and-abzu",
+        "target": "/gaming/2019/of-apple-aac-and-abzu/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/salvaging-old-music-projects",
+        "target": "/gaming/2019/salvaging-old-music-projects/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/staying-private-in-public",
+        "target": "/gaming/2019/staying-private-in-public/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/newsflow-rss-reader-for-windows-10",
+        "target": "/gaming/2019/newsflow-rss-reader-for-windows-10/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/finished-bloodborne-resumed-demons-souls",
+        "target": "/gaming/2019/finished-bloodborne-resumed-demons-souls/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/blaugust-2019-opml-file",
+        "target": "/gaming/2019/blaugust-2019-opml-file/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/snap-judgment-life-is-feudal-mmo",
+        "target": "/gaming/2019/snap-judgment-life-is-feudal-mmo/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-two-good-quests-in-rivenspire",
+        "target": "/gaming/2019/eso-two-good-quests-in-rivenspire/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/steam-backlog-bonanza-timeshift",
+        "target": "/gaming/2019/steam-backlog-bonanza-timeshift/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/stream-schedule-july-28-2019",
+        "target": "/gaming/2019/stream-schedule-july-28-2019/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/steam-backlog-bonanza-lord-of-the-rings-war-in-the-north",
+        "target": "/gaming/2019/steam-backlog-bonanza-lord-of-the-rings-war-in-the-north/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/steam-backlog-bonanza-antichamber",
+        "target": "/gaming/2019/steam-backlog-bonanza-antichamber/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/steam-backlog-bonanza-majesty-gold-hd-blaugust-1",
+        "target": "/gaming/2019/steam-backlog-bonanza-majesty-gold-hd-blaugust-1/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-played-july-2019",
+        "target": "/gaming/2019/games-played-july-2019/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/steam-backlog-bonanza-command-and-conquer-red-alert-3-blaugust-2",
+        "target": "/gaming/2019/steam-backlog-bonanza-command-and-conquer-red-alert-3-blaugust-2/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/steam-backlog-bonanza-dead-space-2-blaugust-3",
+        "target": "/gaming/2019/steam-backlog-bonanza-dead-space-2-blaugust-3/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/hitman-absolution-steam-backlog-bonanza-blaugust-4",
+        "target": "/gaming/2019/hitman-absolution-steam-backlog-bonanza-blaugust-4/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/brutal-legend-steam-backlog-bonanza-blaugust-5",
+        "target": "/gaming/2019/brutal-legend-steam-backlog-bonanza-blaugust-5/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/need-for-speed-hot-pursuit-steam-backlog-bonanza-blaugust-6",
+        "target": "/gaming/2019/need-for-speed-hot-pursuit-steam-backlog-bonanza-blaugust-6/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/neo-scavenger-steam-backlog-bonanza-blaugust-7",
+        "target": "/gaming/2019/neo-scavenger-steam-backlog-bonanza-blaugust-7/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/blog-post-formatting",
+        "target": "/gaming/2019/blog-post-formatting/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/vortex-the-gateway-steam-backlog-bonanza-blaugust-8",
+        "target": "/gaming/2019/vortex-the-gateway-steam-backlog-bonanza-blaugust-8/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/kholat-steam-backlog-bonanza-blaugust-9",
+        "target": "/gaming/2019/kholat-steam-backlog-bonanza-blaugust-9/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/viscera-cleanup-detail-shadow-warrior-steam-backlog-bonanza-blaugust-10",
+        "target": "/gaming/2019/viscera-cleanup-detail-shadow-warrior-steam-backlog-bonanza-blaugust-10/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/quest-for-the-one-blog-part-1",
+        "target": "/gaming/2019/quest-for-the-one-blog-part-1/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/game-of-thrones-steam-backlog-bonanza-blaugust-11",
+        "target": "/gaming/2019/game-of-thrones-steam-backlog-bonanza-blaugust-11/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/quest-for-the-one-blog-part-2",
+        "target": "/gaming/2019/quest-for-the-one-blog-part-2/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/apotheon-steam-backlog-bonanza-blaugust-12",
+        "target": "/gaming/2019/apotheon-steam-backlog-bonanza-blaugust-12/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/quest-for-the-one-blog-part-3",
+        "target": "/gaming/2019/quest-for-the-one-blog-part-3/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/penumba-requiem-steam-backlog-bonanza-blaugust-13",
+        "target": "/gaming/2019/penumba-requiem-steam-backlog-bonanza-blaugust-13/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/quest-for-the-one-blog-part-4",
+        "target": "/gaming/2019/quest-for-the-one-blog-part-4/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/geometry-wars-3-steam-backlog-bonanza-blaugust-14",
+        "target": "/gaming/2019/geometry-wars-3-steam-backlog-bonanza-blaugust-14/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/quest-for-the-one-blog-part-5",
+        "target": "/gaming/2019/quest-for-the-one-blog-part-5/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/alan-wakes-american-nightmare-steam-backlog-bonanza-blaugust-15",
+        "target": "/gaming/2019/alan-wakes-american-nightmare-steam-backlog-bonanza-blaugust-15/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/quest-for-the-one-blog-part-6",
+        "target": "/gaming/2019/quest-for-the-one-blog-part-6/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/a-story-about-my-uncle-steam-backlog-bonanza-blaugust-16",
+        "target": "/gaming/2019/a-story-about-my-uncle-steam-backlog-bonanza-blaugust-16/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-classic-fever-heating-up",
+        "target": "/gaming/2019/wow-classic-fever-heating-up/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/darksiders-ii-steam-backlog-bonanza-blaugust-17",
+        "target": "/gaming/2019/darksiders-ii-steam-backlog-bonanza-blaugust-17/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/on-deciding-not-to-post",
+        "target": "/gaming/2019/on-deciding-not-to-post/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-bureau-xcom-declassified-steam-backlog-bonanza-blaugust-18",
+        "target": "/gaming/2019/the-bureau-xcom-declassified-steam-backlog-bonanza-blaugust-18/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/s-t-a-l-k-e-r-call-of-pipyat-steam-backlog-bonanza-blaugust-19",
+        "target": "/gaming/2019/s-t-a-l-k-e-r-call-of-pipyat-steam-backlog-bonanza-blaugust-19/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-age-of-decadence-steam-backlog-bonanza-blaugust-20",
+        "target": "/gaming/2019/the-age-of-decadence-steam-backlog-bonanza-blaugust-20/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gothic-3-forsaken-gods-enhanced-edition-steam-backlog-bonanza-blaugust-21",
+        "target": "/gaming/2019/gothic-3-forsaken-gods-enhanced-edition-steam-backlog-bonanza-blaugust-21/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/crysis-2-maximum-edition-steam-backlog-bonanza-blaugust-22",
+        "target": "/gaming/2019/crysis-2-maximum-edition-steam-backlog-bonanza-blaugust-22/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/on-archeage-unchained",
+        "target": "/gaming/2019/on-archeage-unchained/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/max-payne-3-steam-backlog-bonanza-blaugust-23",
+        "target": "/gaming/2019/max-payne-3-steam-backlog-bonanza-blaugust-23/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/tree-of-savior-steam-backlog-bonanza-blaugust-24",
+        "target": "/gaming/2019/tree-of-savior-steam-backlog-bonanza-blaugust-24/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/is-remnant-from-the-ashes-a-souls-like",
+        "target": "/gaming/2019/is-remnant-from-the-ashes-a-souls-like/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/titan-souls-steam-backlog-bonanza-blaugust-25",
+        "target": "/gaming/2019/titan-souls-steam-backlog-bonanza-blaugust-25/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/enclave-steam-backlog-bonanza-blaugust-26",
+        "target": "/gaming/2019/enclave-steam-backlog-bonanza-blaugust-26/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/middle-earth-shadow-of-mordor-steam-backlog-bonanza-blaugust-27",
+        "target": "/gaming/2019/middle-earth-shadow-of-mordor-steam-backlog-bonanza-blaugust-27/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-classic-obligatory-post",
+        "target": "/gaming/2019/wow-classic-obligatory-post/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/quest-for-the-one-blog-part-7",
+        "target": "/gaming/2019/quest-for-the-one-blog-part-7/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/never-alone-steam-backlog-bonanza-blaugust-28",
+        "target": "/gaming/2019/never-alone-steam-backlog-bonanza-blaugust-28/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/wow-classic-and-random-group-invites",
+        "target": "/gaming/2019/wow-classic-and-random-group-invites/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/archiving-youtube-livestreams",
+        "target": "/gaming/2019/archiving-youtube-livestreams/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/remember-me-steam-backlog-bonanza-blaugust-29",
+        "target": "/gaming/2019/remember-me-steam-backlog-bonanza-blaugust-29/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/mount-blade-warband-steam-backlog-bonanza-blaugust-30",
+        "target": "/gaming/2019/mount-blade-warband-steam-backlog-bonanza-blaugust-30/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/bioshock-2-remastered-steam-backlog-bonanza-blaugust-31",
+        "target": "/gaming/2019/bioshock-2-remastered-steam-backlog-bonanza-blaugust-31/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/serious-sam-fusion-2017-beta-steam-backlog-bonanza",
+        "target": "/gaming/2019/serious-sam-fusion-2017-beta-steam-backlog-bonanza/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/blaugust-2019-wrapup-part-1",
+        "target": "/gaming/2019/blaugust-2019-wrapup-part-1/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/blaugust-2019-wrapup-part-2-streaming",
+        "target": "/gaming/2019/blaugust-2019-wrapup-part-2-streaming/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/blaugust-2019-wrapup-part-3-statistics",
+        "target": "/gaming/2019/blaugust-2019-wrapup-part-3-statistics/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/how-i-rediscovered-internet-radio",
+        "target": "/gaming/2019/how-i-rediscovered-internet-radio/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/quest-for-the-one-blog-part-8",
+        "target": "/gaming/2019/quest-for-the-one-blog-part-8/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/hugo-quest-for-the-one-blog-part-9",
+        "target": "/gaming/2019/hugo-quest-for-the-one-blog-part-9/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/reaper-mania",
+        "target": "/gaming/2019/reaper-mania/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/half-hearted-september-update",
+        "target": "/gaming/2019/half-hearted-september-update/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-lw4-episode-6-war-eternal",
+        "target": "/gaming/2019/gw2-lw4-episode-6-war-eternal/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gw2-lw5-prologue-bound-by-blood",
+        "target": "/gaming/2019/gw2-lw5-prologue-bound-by-blood/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/lotro-quest-font-size-this-changes-everything",
+        "target": "/gaming/2019/lotro-quest-font-size-this-changes-everything/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/astellia-online-first-impressions",
+        "target": "/gaming/2019/astellia-online-first-impressions/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/astellias-price-point",
+        "target": "/gaming/2019/astellias-price-point/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/destiny-2-a-picture-book-in-two-parts",
+        "target": "/gaming/2019/destiny-2-a-picture-book-in-two-parts/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/four-news-stories",
+        "target": "/gaming/2019/four-news-stories/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/eso-glenumbra-and-stormhaven",
+        "target": "/gaming/2019/eso-glenumbra-and-stormhaven/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/max-payne-3-completed",
+        "target": "/gaming/2019/max-payne-3-completed/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/opting-out-of-the-fashion-wars",
+        "target": "/gaming/2019/opting-out-of-the-fashion-wars/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-division-2-free-weekend-worked",
+        "target": "/gaming/2019/the-division-2-free-weekend-worked/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-last-of-us-remastered-completed-ps4",
+        "target": "/gaming/2019/the-last-of-us-remastered-completed-ps4/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/scary-game-experiment",
+        "target": "/gaming/2019/scary-game-experiment/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/only-five-games-in-a-year",
+        "target": "/gaming/2019/only-five-games-in-a-year/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/generation-zero",
+        "target": "/gaming/2019/generation-zero/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/death-stranding-impressions-ps4",
+        "target": "/gaming/2019/death-stranding-impressions-ps4/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/xim-apex-mouse-and-keyboard-adapter-for-the-ps4",
+        "target": "/gaming/2019/xim-apex-mouse-and-keyboard-adapter-for-the-ps4/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/outward",
+        "target": "/gaming/2019/outward/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/game-awards-unrolled",
+        "target": "/gaming/2019/game-awards-unrolled/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/revisiting-ongoing-games",
+        "target": "/gaming/2019/revisiting-ongoing-games/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/games-of-my-decade",
+        "target": "/gaming/2019/games-of-my-decade/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-death-stranding-experience-prologue",
+        "target": "/gaming/2019/the-death-stranding-experience-prologue/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-death-stranding-experience-episode-1",
+        "target": "/gaming/2020/the-death-stranding-experience-episode-1/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-death-stranding-experience-episode-2",
+        "target": "/gaming/2020/the-death-stranding-experience-episode-2/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/endgame-viable-awards-2019",
+        "target": "/gaming/2020/endgame-viable-awards-2019/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/on-the-radar-for-2020",
+        "target": "/gaming/2020/on-the-radar-for-2020/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/death-stranding-episode-3-8",
+        "target": "/gaming/2020/death-stranding-episode-3-8/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/game-planning-for-2020",
+        "target": "/gaming/2020/game-planning-for-2020/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/a-bit-more-on-everquest-ii",
+        "target": "/gaming/2020/a-bit-more-on-everquest-ii/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/everquest-ii-oawluuf-journal",
+        "target": "/gaming/2020/everquest-ii-oawluuf-journal/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/hellblade-senuas-sacrifice",
+        "target": "/gaming/2020/hellblade-senuas-sacrifice/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/catching-up-on-life",
+        "target": "/gaming/2020/catching-up-on-life/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/yag-laser-capsulotomy",
+        "target": "/gaming/2020/yag-laser-capsulotomy/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/covid-19-or-something",
+        "target": "/gaming/2020/covid-19-or-something/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/blapril-and-mental-headspace",
+        "target": "/gaming/2020/blapril-and-mental-headspace/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/no-mans-sky",
+        "target": "/gaming/2020/no-mans-sky/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/gamer-motivation-profile",
+        "target": "/gaming/2020/gamer-motivation-profile/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/doki-doki-literature-club",
+        "target": "/gaming/2020/doki-doki-literature-club/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/assassins-creed-franchise-part-1",
+        "target": "/gaming/2020/assassins-creed-franchise-part-1/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/assassins-creed-franchise-part-2",
+        "target": "/gaming/2020/assassins-creed-franchise-part-2/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/assassins-creed-franchise-part-3-black-flag",
+        "target": "/gaming/2020/assassins-creed-franchise-part-3-black-flag/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/assassins-creed-franchise-part-4-rogue",
+        "target": "/gaming/2020/assassins-creed-franchise-part-4-rogue/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-last-of-us-part-ii-no-spoilers",
+        "target": "/gaming/2020/the-last-of-us-part-ii-no-spoilers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-last-of-us-part-ii-anti-criticisms-spoilers",
+        "target": "/gaming/2020/the-last-of-us-part-ii-anti-criticisms-spoilers/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/august-and-promptapalooza-arrives",
+        "target": "/gaming/2020/august-and-promptapalooza-arrives/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/despondence-over-divisions-in-writing",
+        "target": "/gaming/2020/despondence-over-divisions-in-writing/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/worldview-shaping-media",
+        "target": "/gaming/2020/worldview-shaping-media/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/isaia-and-old-books",
+        "target": "/gaming/2020/isaia-and-old-books/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/routines-or-nah",
+        "target": "/gaming/2020/routines-or-nah/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/hanlons-razor",
+        "target": "/gaming/2020/hanlons-razor/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/catching-up-on-prompts",
+        "target": "/gaming/2020/catching-up-on-prompts/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/abbreviated-creative-space",
+        "target": "/gaming/2020/abbreviated-creative-space/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/a-desert-sun-yellow-guitar-lost-along-the-way",
+        "target": "/gaming/2020/a-desert-sun-yellow-guitar-lost-along-the-way/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/remnant-from-the-ashes",
+        "target": "/gaming/2020/remnant-from-the-ashes/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/and-thats-it-for-remnant-from-the-ashes",
+        "target": "/gaming/2020/and-thats-it-for-remnant-from-the-ashes/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/and-were-back-in-remnant-from-the-ashes",
+        "target": "/gaming/2020/and-were-back-in-remnant-from-the-ashes/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/more-prompts-and-a-remnant-update",
+        "target": "/gaming/2020/more-prompts-and-a-remnant-update/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/finishing-games-or-trying-to",
+        "target": "/gaming/2020/finishing-games-or-trying-to/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/remnant-from-the-ashes-completed",
+        "target": "/gaming/2020/remnant-from-the-ashes-completed/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-next-year",
+        "target": "/gaming/2020/the-next-year/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/yet-more-prompts",
+        "target": "/gaming/2020/yet-more-prompts/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/new-world-beta-unimpresses",
+        "target": "/gaming/2020/new-world-beta-unimpresses/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/twitter-digest-posts",
+        "target": "/gaming/2020/twitter-digest-posts/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/currently-playing-playlist",
+        "target": "/gaming/2020/currently-playing-playlist/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/the-division-2-again",
+        "target": "/gaming/2020/the-division-2-again/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/twitter-jail",
+        "target": "/gaming/2020/twitter-jail/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/ethical-gaming",
+        "target": "/gaming/2020/ethical-gaming/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/horizon-zero-dawn-ps4",
+        "target": "/gaming/2020/horizon-zero-dawn-ps4/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/genshin-impact-ps4",
+        "target": "/gaming/2020/genshin-impact-ps4/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/genshin-impact-ps4-in-my-own-words",
+        "target": "/gaming/2020/genshin-impact-ps4-in-my-own-words/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/resident-evil-3-demo",
+        "target": "/gaming/2020/resident-evil-3-demo/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/baffling-war-of-three-peaks-kerfuffle",
+        "target": "/gaming/2020/baffling-war-of-three-peaks-kerfuffle/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/presenting-adventure-rank-four",
+        "target": "/gaming/2020/presenting-adventure-rank-four/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/three-more-tracks",
+        "target": "/gaming/2020/three-more-tracks/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/twitter-policies-codified",
+        "target": "/gaming/2020/twitter-policies-codified/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/pathologic-2",
+        "target": "/gaming/2020/pathologic-2/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/pathologic-2-addendum",
+        "target": "/gaming/2020/pathologic-2-addendum/",
+        "status": "301",
+        "condition": null
+    },
+    {
+        "source": "/pathologic-2-credits",
+        "target": "/gaming/2020/pathologic-2-credits/",
+        "status": "301",
+        "condition": null
+    }
+]

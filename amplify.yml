@@ -1,0 +1,45 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        # Fail build if env vars are missing
+        - env | grep EGV_RESOURCE_STACK
+        - env | grep -q EGV_RUNTIME_ACCESS_KEY_ID
+        - env | grep -q EGV_RUNTIME_SECRET_ACCESS_KEY
+        - env | grep -q EGV_USER_MASTODON_API_TOKEN
+        # Get vars from cloudformation outputs
+        - export EGV_RESOURCE_EVENT_QUEUE=$(aws cloudformation describe-stacks --stack-name $EGV_RESOURCE_STACK-resource --output text | grep EventQueue | awk '{print $NF}')
+        - env | grep EGV_RESOURCE_EVENT_QUEUE
+        - export EGV_RESOURCE_STATE_TABLE=$(aws cloudformation describe-stacks --stack-name $EGV_RESOURCE_STACK-resource --output text | grep StateTable | awk '{print $NF}')
+        - env | grep EGV_RESOURCE_STATE_TABLE
+        - export EGV_RESOURCE_JSON_BUCKET=$(aws cloudformation describe-stacks --stack-name $EGV_RESOURCE_STACK-build --output text | grep JSONBucket | awk '{print $NF}')
+        - env | grep EGV_RESOURCE_JSON_BUCKET
+        - export EGV_RESOURCE_SEARCH_TABLE=$(aws cloudformation describe-stacks --stack-name $EGV_RESOURCE_STACK-build --output text | grep SearchTable | awk '{print $NF}')
+        - env | grep EGV_RESOURCE_SEARCH_TABLE
+        # Fail build if tests fail
+        - npm install
+        - npm test
+        - rm -rf content
+    build:
+      commands:
+        - mkdir -p content
+        - aws s3 cp s3://${EGV_RESOURCE_JSON_BUCKET}/_content.zip .
+        - unzip -q _content.zip -d content
+        - rm _content.zip
+        - node -v
+        - npm ci
+        - "env | grep -e '^EGV_USER_' -e '^EGV_RESOURCE_' >> .env.production"
+        # To work in Amplify hosting, have to set access and token
+        # from an IAM user for runtime environment to access resources.
+        # See https://github.com/aws-amplify/amplify-hosting/issues/3205
+        - "env | grep -e '^EGV_RUNTIME_' | sed 's/^EGV_RUNTIME_/AWS_/' >> .env.production"
+        - npm run build
+  artifacts:
+    baseDirectory: .next
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
+      - .next/cache/**/*
