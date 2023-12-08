@@ -6,7 +6,7 @@ import {
 import { PAGE_SIZE, siteConfig } from '@config/siteConfig';
 import { safeStringify } from '@/types/strings';
 import { getAllLatestPosts } from './getAllLatestPosts';
-import { linkWithDomain, thisSiteUrl } from './utilities';
+import { permalink } from './utilities';
 
 export async function generateFeed(): Promise<Feed> {
     const entries = await getAllLatestPosts();
@@ -17,8 +17,8 @@ export async function generateFeed(): Promise<Feed> {
         id: siteConfig.homePage,
         link: siteConfig.homePage,
         feedLinks: {
-            json: linkWithDomain(siteConfig.siteHost, '/index.json'),
-            rss: linkWithDomain(siteConfig.siteHost, '/index.xml'),
+            json: permalink('/index.json'),
+            rss: permalink('/index.xml'),
         },
         updated: new Date(),
         copyright: 'Copyright', // TODO
@@ -29,8 +29,8 @@ export async function generateFeed(): Promise<Feed> {
             feed.addItem({
                 date: new Date(entry.timestamp),
                 title: safeStringify(entry.title, 'Untitled'),
-                id: thisSiteUrl(entry.route),
-                link: linkWithDomain(siteConfig.siteHost, entry.route),
+                id: permalink(entry.route),
+                link: permalink(entry.route),
                 description: renderSummaryAsHTML(entry),
                 content: renderArticleAsHTML(entry),
             });

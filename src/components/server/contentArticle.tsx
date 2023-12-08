@@ -32,7 +32,7 @@ export default function ContentArticle({ entry }: { entry: PageContent }) {
             <article>
                 <header>
                     <h1>
-                        <a href={entry.route.replace(/\/index\.json$/, '')}>
+                        <a href={canonicalizePath(entry.route)}>
                             {entry.title}
                         </a>
                     </h1>

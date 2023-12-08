@@ -4,6 +4,7 @@ import {
     renderSummaryAsHTML,
 } from '@/data/interfaces/content';
 import EntryDateTime from './dateTime';
+import { canonicalizePath } from '@/site/utilities';
 
 export default function ContentSummary({
     entry,
@@ -23,7 +24,7 @@ export default function ContentSummary({
             <article>
                 <header>
                     <h2>
-                        <a href={entry.route.replace(/\/index\.json$/, '')}>
+                        <a href={canonicalizePath(entry.route)}>
                             {entry.title}
                         </a>
                     </h2>

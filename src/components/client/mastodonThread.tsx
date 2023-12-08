@@ -1,12 +1,13 @@
 'use client';
 
 import { Mention } from '@/data/interfaces/mention';
-import { canonicalSiteUrl } from '@/site/utilities';
+import { permalink } from '@/site/utilities';
+import { siteConfig } from '@config/siteConfig';
 import { useState, useEffect } from 'react';
 
 // Client-side component to query the api for ActivityPub mentions
 export default function MastodonThreadLayout({ route }: { route: string }) {
-    const url = canonicalSiteUrl(route);
+    const url = permalink(route, siteConfig.canonicalHostName);
     const initial: Mention[] = [];
     const [mentions, setMentions] = useState(initial);
     const [isLoading, setLoading] = useState(true);

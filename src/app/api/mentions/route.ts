@@ -84,10 +84,10 @@ export async function GET(request: Request) {
     // Lookup url in the metadata linking table.
     // The table holds links from urls to metadata.
     let mentions: Mention[] = [];
-    let item = await lookupUrl(url);
+    let item = await lookupUrl(ensureTrailingSlash(url, false));
     if (!item) {
         // try with a trailing slash for Hugo links
-        item = await lookupUrl(ensureTrailingSlash(url));
+        item = await lookupUrl(ensureTrailingSlash(url, true));
     }
     if (item) {
         const instanceName = item.activityPubInstance.S;

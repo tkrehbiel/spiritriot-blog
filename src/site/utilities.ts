@@ -1,21 +1,23 @@
+import path from 'path';
 import { siteConfig } from '@config/siteConfig';
 
-export function linkWithDomain(hostname: string, path: string): string {
-    return 'https://' + hostname + canonicalizePath(path);
+// TODO: All of this needs unit tests
+
+// Generate a permalink to a route within the site,
+// with an optional hostname override.
+export function permalink(
+    relUrl: string,
+    hostname: string = siteConfig.siteHost,
+): string {
+    return ensureTrailingSlash(linkWithDomain(hostname, relUrl), true);
 }
 
-// Host and path to this site
-export function thisSiteUrl(relUrl: string): string {
-    return siteConfig.homePage + canonicalizePath(relUrl);
-}
-
-// Generate a link to an existing public site based on the route.
-// Used when developing new site in parallel with an old one.
-export function canonicalSiteUrl(relUrl: string): string {
-    return linkWithDomain(siteConfig.canonicalHostName, relUrl);
+export function linkWithDomain(hostname: string, pathname: string): string {
+    return ensureHttps(path.join(hostname, canonicalizePath(pathname)));
 }
 
 export function ensureHttps(url: string): string {
+    // TODO: naive, what if we pass in http://something?
     if (url.startsWith('https://')) return url;
     return 'https://' + url;
 }
@@ -28,6 +30,7 @@ export function stripIndexJson(url: string): string {
 }
 
 // Path = /path/to/content
+// Next.js doesn't want slashes on the end
 export function canonicalizePath(path: string): string {
     if (path === '') return '/';
     let newPath = stripIndexJson(path);
@@ -44,7 +47,14 @@ export function canonicalizeRoute(path: string): string {
     return route;
 }
 
-export function ensureTrailingSlash(path: string): string {
-    if (path.endsWith('/')) return path;
-    return path + '/';
+export function ensureTrailingSlash(path: string, add: boolean): string {
+    if (add) {
+        // add a slash if it doesn't exist
+        if (path.endsWith('/')) return path;
+        return path + '/';
+    } else {
+        // remove slash if it exists
+        if (!path.endsWith('/')) return path;
+        return path.substring(0, path.length - 1);
+    }
 }
