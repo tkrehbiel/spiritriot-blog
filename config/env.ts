@@ -3,11 +3,11 @@
 type EnvVar = {
     name: string;
     defaultValue: string | undefined;
-}
+};
 
 type EnvVars = {
-    [key: string]: EnvVar
-}
+    [key: string]: EnvVar;
+};
 
 // enum for environment variables we can retrieve
 // this is mainly so we can use intellisense
@@ -24,20 +24,20 @@ export enum ENV {
 
 const definedVariables: EnvVars = {
     [ENV.COMMENTBOX_APPID]: {
-        name: 'NEXT_PUBLIC_COMMENTBOX_APPID', 
-        defaultValue: "",
+        name: 'NEXT_PUBLIC_COMMENTBOX_APPID',
+        defaultValue: '',
     },
-    [ENV.MASTODON_TOKEN]: { 
-        name: 'EGV_USER_MASTODON_API_TOKEN', 
-        defaultValue: "",
+    [ENV.MASTODON_TOKEN]: {
+        name: 'EGV_USER_MASTODON_API_TOKEN',
+        defaultValue: '',
     },
     [ENV.METADATA_TABLE]: {
         name: 'EGV_RESOURCE_STATE_TABLE',
-        defaultValue: "",
+        defaultValue: '',
     },
     [ENV.SEARCH_TABLE]: {
         name: 'EGV_RESOURCE_SEARCH_TABLE',
-        defaultValue: "", 
+        defaultValue: '',
     },
     [ENV.JSON_BUCKET]: {
         name: 'EGV_RESOURCE_JSON_BUCKET',
@@ -55,7 +55,7 @@ const definedVariables: EnvVars = {
         name: 'EGV_USER_CONTENT_LOCATION',
         defaultValue: 'file://content',
     },
-}
+};
 
 // Get environment variables in a safer way.
 // Throws an error if a variable doesn't exist and there's no default.
@@ -71,6 +71,6 @@ export function getEnv(name: ENV): string {
         console.log(message);
         throw new Error(message); // kill the app
     }
-    
+
     return config.defaultValue;
 }
