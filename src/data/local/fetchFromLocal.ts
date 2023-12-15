@@ -3,6 +3,7 @@ import { promises as fs } from 'fs';
 import { PageContent } from '@/data/interfaces/content';
 import { HugoJsonPage } from '../interfaces/hugo';
 import { hugoToPage, hugoToPageList } from '@/types/page';
+import { ENV, getEnv } from '@config/env';
 
 // TODO: Ever heard of classes? OOP? Yeah, do that.
 // Make a provider class and implementations for S3, Dynamo, and local.
@@ -24,7 +25,8 @@ export const getContentAtRouteLocal = async (
 };
 
 export async function getLocalJSONFile(relativepath: string): Promise<any> {
-    const pathname = path.join(process.cwd(), 'data', relativepath);
+    const datadir = getEnv(ENV.DATA_LOCATION).substring(7);
+    const pathname = path.join(process.cwd(), datadir, relativepath);
     try {
         const body = await fs.readFile(pathname, 'utf8');
         return JSON.parse(body);

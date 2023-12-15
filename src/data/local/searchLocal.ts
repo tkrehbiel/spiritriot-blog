@@ -5,15 +5,17 @@ import EntryQueryParams from '../interfaces/queryFilter';
 import { getFileConcurrency } from '@config/serverConfig';
 import { hugoToPage } from '@/types/page';
 import { HugoJsonPage } from '../interfaces/hugo';
+import { ENV, getEnv } from '@config/env';
 
 export async function searchEntriesLocal(
     params: EntryQueryParams,
 ): Promise<PageContent[]> {
     console.log(`local search starting`);
 
+    const datadir = getEnv(ENV.DATA_LOCATION).substring(7);
     const concurrency = getFileConcurrency();
     const files = await walkDirectory(
-        path.join(process.cwd(), 'data'),
+        path.join(process.cwd(), datadir),
         '',
         '.json',
     );

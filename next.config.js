@@ -29,7 +29,10 @@ const nextConfig = {
 // See https://nextjs.org/docs/pages/building-your-application/configuring/typescript#type-checking-nextconfigjs
 
 async function getFile(filename) {
-    const pathname = [process.cwd(), 'data', filename].join('/');
+    let dirname = process.env.EGV_USER_DATA_LOCATION;
+    if (!dirname || !dirname.startsWith('file://')) dirname = 'data';
+    else dirname = dirname.substring(7);
+    const pathname = [process.cwd(), dirname, filename].join('/');
     try {
         const body = await fs.readFile(pathname, 'utf8');
         return JSON.parse(body);
