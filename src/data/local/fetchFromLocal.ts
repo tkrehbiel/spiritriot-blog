@@ -11,9 +11,10 @@ import { ENV, getEnv } from '@config/env';
 
 export const getContentAtRouteLocal = async (
     route: string[],
-): Promise<PageContent> => {
+): Promise<PageContent | null> => {
     const relativepath = path.join(route.join('/'), 'index.json');
     const data: HugoJsonPage = await getLocalJSONFile(relativepath);
+    if (data === null) return null;
     if (data.children && data.children.length > 0) {
         // List page
         const children = hugoToPageList(data.children);

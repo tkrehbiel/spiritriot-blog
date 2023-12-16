@@ -5,7 +5,9 @@ import { ENV, getEnv } from '@config/env';
 
 const contentUrl = new URL(getEnv(ENV.DATA_LOCATION));
 
-export async function getContentAtRoute(route: string[]): Promise<PageContent> {
+export async function getContentAtRoute(
+    route: string[],
+): Promise<PageContent | null> {
     // TODO: Should go back to some kind of provider class probably
     if (contentUrl.protocol === 's3:') return getContentAtRouteS3(route);
     else if (contentUrl.protocol === 'file:')

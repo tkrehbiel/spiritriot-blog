@@ -34,9 +34,13 @@ function getView(entry: PageContent): JSX.Element {
 
 export async function standardPageComponent(
     route: string[],
-): Promise<JSX.Element> {
+): Promise<JSX.Element | null> {
     const startTime = performance.now();
     const entry = await getContentAtRoute(route);
+    if (entry === null) {
+        // no content found at route
+        return null;
+    }
     const component = getView(entry);
     const elapsed = performance.now() - startTime;
     return (
