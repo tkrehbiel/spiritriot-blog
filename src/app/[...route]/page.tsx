@@ -10,6 +10,9 @@ type pageParams = {
     route: string[];
 };
 
+// 404 for any requested page not generated statically below.
+export const dynamicParams = false;
+
 // generateStaticRoutes() provides a list of
 // page routes to create statically at build time.
 // We fetch a list of pages from the content data source,
