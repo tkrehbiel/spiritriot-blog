@@ -84,19 +84,23 @@ export async function GET(request: Request) {
     // Lookup url in the metadata linking table.
     // The table holds links from urls to metadata.
     let mentions: Mention[] = [];
-    let item = await lookupUrl(ensureTrailingSlash(url, false));
-    if (!item) {
-        // try with a trailing slash for Hugo links
-        item = await lookupUrl(ensureTrailingSlash(url, true));
-    }
-    if (item) {
-        const instanceName = item.activityPubInstance.S;
-        const statusId = item.activityPubStatusID.S;
-        if (instanceName && statusId) {
-            // If we have a link to an ActivityPub status ID,
-            // call Mastodon api to fetch related statuses.
-            mentions = await getThread(instanceName, statusId);
+    try {
+        let item = await lookupUrl(ensureTrailingSlash(url, false));
+        if (!item) {
+            // try with a trailing slash for Hugo links
+            item = await lookupUrl(ensureTrailingSlash(url, true));
         }
+        if (item) {
+            const instanceName = item.activityPubInstance.S;
+            const statusId = item.activityPubStatusID.S;
+            if (instanceName && statusId) {
+                // If we have a link to an ActivityPub status ID,
+                // call Mastodon api to fetch related statuses.
+                mentions = await getThread(instanceName, statusId);
+            }
+        }
+    } catch (error) {
+        console.log('error looking up mentions:', error);
     }
 
     const elapsed = performance.now() - startTime;
