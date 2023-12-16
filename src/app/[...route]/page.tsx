@@ -25,7 +25,7 @@ export async function generateStaticParams() {
     // _sectionmap is a list of content sections in the blog
     try {
         const allSections = await getContentAtRoute(['_sectionmap']);
-        if (allSections.children) {
+        if (allSections && allSections.children) {
             for (const page of allSections.children) {
                 if (page.route) {
                     const route = canonicalizeRoute(page.route);
@@ -40,7 +40,7 @@ export async function generateStaticParams() {
     try {
         // _pagemap is a list of all content pages in the blog
         const allPages = await getContentAtRoute(['_pagemap']);
-        if (allPages.children) {
+        if (allPages && allPages.children) {
             for (const page of allPages.children) {
                 if (page.route) {
                     const route = canonicalizeRoute(page.route);
