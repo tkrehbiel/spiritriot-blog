@@ -1,4 +1,5 @@
 import { TextType, contentToHTML } from '@/types/contentText';
+import { HugoMetadata } from './hugo';
 
 export type PageContentType = 'post' | 'micropost' | undefined;
 
@@ -14,6 +15,7 @@ export interface PageContent {
     article: TextType;
     title?: string;
     image?: string; // header image url
+    metadata?: HugoMetadata;
     children?: PageContent[];
 }
 

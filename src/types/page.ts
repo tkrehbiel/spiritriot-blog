@@ -26,6 +26,7 @@ export function hugoToPage(
                     ? 'micropost'
                     : 'post',
             image: image,
+            metadata: json.metadata,
             children: children,
         };
     } catch (error) {
@@ -37,6 +38,12 @@ export function hugoToPage(
 export function hugoToPageList(dataPages: HugoJsonPage[]): PageContent[] {
     const entries: PageContent[] = [];
     for (const jsonPage of dataPages) {
+        if (
+            jsonPage.metadata &&
+            jsonPage.metadata.unlisted !== undefined &&
+            jsonPage.metadata.unlisted === true
+        )
+            continue;
         const entry = hugoToPage(jsonPage, []);
         entries.push(entry);
     }
