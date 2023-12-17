@@ -3,7 +3,7 @@ export const branding = {
     homePage: 'https://github.com/tkrehbiel/spiritriot',
     siteHost: 'spiritriot',
     canonicalHostName: 'spiritriot',
-    feedBeginsAt: '2023-11-30T00:00:00Z',
+    feedBeginsAt: '2023-12-15T00:00:00Z',
     links: [
       // eg.
       // indieweb identity

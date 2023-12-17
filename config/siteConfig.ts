@@ -1,4 +1,6 @@
 // Very high level site configuration.
+// TODO: There should be a way to import from a different directory than "data".
+// It negates the configuration in the EGV_USER_DATA_LOCATION env var.
 import { branding } from '@data/branding';
 
 interface headLink {
