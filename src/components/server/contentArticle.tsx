@@ -30,8 +30,32 @@ export default function ContentArticle({ entry }: { entry: PageContent }) {
     if (commentBoxAppID && commentBoxAppID !== '')
         commentBoxComponent = <CommentBoxLayout />;
 
+    let next = <></>;
+    if (entry.next && entry.next.title) {
+        next = (
+            <nav>
+                Next:{' '}
+                <a href={canonicalizePath(entry.next.route)}>
+                    {entry.next.title}
+                </a>
+            </nav>
+        );
+    }
+    let previous = <></>;
+    if (entry.previous && entry.previous.title) {
+        previous = (
+            <nav>
+                Previously:{' '}
+                <a href={canonicalizePath(entry.previous.route)}>
+                    {entry.previous.title}
+                </a>
+            </nav>
+        );
+    }
+
     return (
         <>
+            {previous}
             <article>
                 <header>
                     <h1>
@@ -52,6 +76,7 @@ export default function ContentArticle({ entry }: { entry: PageContent }) {
                 <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
                 <footer></footer>
             </article>
+            {next}
             <section>
                 <MastodonThreadLayout route={url} />
             </section>

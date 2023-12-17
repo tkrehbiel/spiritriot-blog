@@ -17,4 +17,11 @@ export interface HugoJsonPage {
     content?: string;
     plain?: string;
     children?: HugoJsonPage[];
+    next?: HugoJsonPageLink;
+    previous?: HugoJsonPageLink;
+}
+
+export interface HugoJsonPageLink {
+    link: string;
+    title?: string;
 }

@@ -15,7 +15,7 @@ export function hugoToPage(
         if (json.metadata && json.metadata.images) {
             image = json.metadata.images[0];
         }
-        return {
+        const entry: PageContent = {
             timestamp: safeParseDateMillis(safeStringify(json.date)),
             route: canonicalizePath(safeStringify(json.link)),
             summary: new TextType(safeStringify(json.summary), 'text/plain'),
@@ -29,6 +29,19 @@ export function hugoToPage(
             metadata: json.metadata,
             children: children,
         };
+        if (json.next) {
+            entry.next = {
+                route: canonicalizePath(safeStringify(json.next.link)),
+                title: json.next.title,
+            };
+        }
+        if (json.previous) {
+            entry.previous = {
+                route: canonicalizePath(safeStringify(json.previous.link)),
+                title: json.previous.title,
+            };
+        }
+        return entry;
     } catch (error) {
         console.log('error in', JSON.stringify(json));
         throw error;

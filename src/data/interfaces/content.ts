@@ -17,6 +17,13 @@ export interface PageContent {
     image?: string; // header image url
     metadata?: HugoMetadata;
     children?: PageContent[];
+    next?: PageLink;
+    previous?: PageLink;
+}
+
+export interface PageLink {
+    route: string;
+    title?: string;
 }
 
 export const ERROR_ENTRY: PageContent = {
