@@ -24,8 +24,18 @@ export async function generateFeed(): Promise<Feed> {
         copyright: 'Copyright', // TODO
     });
     const feedStartingTimestamp = Date.parse(siteConfig.feedBeginsAt);
-    entries.slice(0, PAGE_SIZE).map((entry) => {
-        if (entry.timestamp >= feedStartingTimestamp) {
+    entries
+        .filter((entry) => entry.timestamp >= feedStartingTimestamp)
+        .filter(
+            (entry) =>
+                !(
+                    entry.metadata &&
+                    entry.metadata.norss !== undefined &&
+                    entry.metadata.norss === true
+                ),
+        )
+        .slice(0, PAGE_SIZE)
+        .map((entry) => {
             feed.addItem({
                 date: new Date(entry.timestamp),
                 title: safeStringify(entry.title, 'Untitled'),
@@ -34,7 +44,6 @@ export async function generateFeed(): Promise<Feed> {
                 description: renderSummaryAsHTML(entry),
                 content: renderArticleAsHTML(entry),
             });
-        }
-    });
+        });
     return feed;
 }
