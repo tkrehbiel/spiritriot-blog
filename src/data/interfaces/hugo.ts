@@ -19,9 +19,17 @@ export interface HugoJsonPage {
     children?: HugoJsonPage[];
     next?: HugoJsonPageLink;
     previous?: HugoJsonPageLink;
+    pagination?: HugoPagination;
 }
 
 export interface HugoJsonPageLink {
     link: string;
     title?: string;
+}
+
+export interface HugoPagination {
+    nextPage?: string;
+    previousPage?: string;
+    currentPage: number;
+    totalPages: number;
 }

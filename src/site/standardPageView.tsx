@@ -5,6 +5,7 @@ import { getContentAtRoute } from '@/site/getContent';
 import ContentList from '@/components/server/contentList';
 import ContentArticle from '@/components/server/contentArticle';
 import ContentMicropost from '@/components/server/contentMicropost';
+import ContentPager from '@/components/server/contentPager';
 
 // Detect which view component to use to render
 // the given json page data.
@@ -16,11 +17,14 @@ function getView(entry: PageContent): JSX.Element {
     let component: JSX.Element;
     if (entry.children && entry.children.length > 0) {
         component = (
-            <ContentList
-                title={safeStringify(entry.title)}
-                content={safeStringify(entry.article)}
-                list={entry.children}
-            />
+            <>
+                <ContentList
+                    title={safeStringify(entry.title)}
+                    content={safeStringify(entry.article)}
+                    list={entry.children}
+                />
+                <ContentPager entry={entry} />
+            </>
         );
     } else {
         if (entry.type === 'micropost') {

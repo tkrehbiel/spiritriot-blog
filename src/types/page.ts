@@ -41,6 +41,18 @@ export function hugoToPage(
                 title: json.previous.title,
             };
         }
+        if (json.pagination) {
+            entry.pagination = {
+                currentPage: json.pagination.currentPage,
+                totalPages: json.pagination.totalPages,
+                nextRoute: canonicalizePath(
+                    safeStringify(json.pagination.nextPage),
+                ),
+                previousRoute: canonicalizePath(
+                    safeStringify(json.pagination.previousPage),
+                ),
+            };
+        }
         return entry;
     } catch (error) {
         console.log('error in', JSON.stringify(json));

@@ -19,11 +19,19 @@ export interface PageContent {
     children?: PageContent[];
     next?: PageLink;
     previous?: PageLink;
+    pagination?: Pagination;
 }
 
 export interface PageLink {
     route: string;
     title?: string;
+}
+
+export interface Pagination {
+    currentPage: number;
+    totalPages: number;
+    previousRoute?: string;
+    nextRoute?: string;
 }
 
 export const ERROR_ENTRY: PageContent = {
