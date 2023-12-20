@@ -12,7 +12,7 @@ export async function searchEntriesLocal(
 ): Promise<PageContent[]> {
     console.log(`local search starting`);
 
-    const datadir = getEnv(ENV.DATA_LOCATION).substring(7);
+    const datadir = getEnv(ENV.DATA_DIRECTORY);
     const concurrency = getFileConcurrency();
     const files = await walkDirectory(
         path.join(process.cwd(), datadir),

@@ -63,7 +63,7 @@ export async function indexSiteData(): Promise<SiteIndex> {
         }
     }
 
-    const datadir = getEnv(ENV.DATA_LOCATION).substring(7);
+    const datadir = getEnv(ENV.DATA_DIRECTORY);
     await traverse(path.join(process.cwd(), datadir), '');
 
     // ensure maps and arrays are built

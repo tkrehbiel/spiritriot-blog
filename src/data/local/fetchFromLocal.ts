@@ -26,7 +26,7 @@ export const getContentAtRouteLocal = async (
 };
 
 export async function getLocalJSONFile(relativepath: string): Promise<any> {
-    const datadir = getEnv(ENV.DATA_LOCATION).substring(7);
+    const datadir = getEnv(ENV.DATA_DIRECTORY);
     const pathname = path.join(process.cwd(), datadir, relativepath);
     try {
         const body = await fs.readFile(pathname, 'utf8');
