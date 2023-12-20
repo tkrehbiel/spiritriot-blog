@@ -11,6 +11,7 @@ import { getLocalJSONFile } from './fetchFromLocal';
 import { HugoJsonPage } from '../interfaces/hugo';
 import { safeParseDateMillis } from '@/types/dates';
 import { canonicalizeRoute } from '@/site/utilities';
+import { ENV, getEnv } from '@config/env';
 
 // Create an index of all the site data
 export async function indexSiteData(): Promise<SiteIndex> {
@@ -62,7 +63,8 @@ export async function indexSiteData(): Promise<SiteIndex> {
         }
     }
 
-    await traverse(path.join(process.cwd(), 'data_local'), '');
+    const datadir = getEnv(ENV.DATA_LOCATION).substring(7);
+    await traverse(path.join(process.cwd(), datadir), '');
 
     // ensure maps and arrays are built
     const paginatedSectionMap: SectionMap = {};
