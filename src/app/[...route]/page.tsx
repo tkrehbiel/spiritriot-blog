@@ -1,6 +1,5 @@
-import { canonicalizeRoute } from '@/site/utilities';
 import { standardPageComponent } from '@/site/standardPageView';
-import { getContentAtRoute } from '@/site/getContent';
+import { indexSiteData } from '@/data/local/indexData';
 
 // This is the main dynamic route page endpoint.
 // Basically any site links that aren't the home page
@@ -15,42 +14,24 @@ export const dynamicParams = false;
 
 // generateStaticRoutes() provides a list of
 // page routes to create statically at build time.
-// We fetch a list of pages from the content data source,
+// We generate a list of pages from the content data source,
 // and return a list so that the majority of the site's
 // landing pages are created staticially.
 // (Currently this is over 1500 static pages.)
+// Page requests that aren't in this list should return a 404.
 
 export async function generateStaticParams() {
     const params: pageParams[] = [];
-    // _sectionmap is a list of content sections in the blog
-    try {
-        const allSections = await getContentAtRoute(['_sectionmap']);
-        if (allSections && allSections.children) {
-            for (const page of allSections.children) {
-                if (page.route) {
-                    const route = canonicalizeRoute(page.route);
-                    params.push({ route: route.split('/') });
-                }
-            }
+    const index = await indexSiteData();
+    for (const route in index.endpointMap) {
+        if (route !== '') {
+            params.push({ route: route.split('/') });
         }
-    } catch (error) {
-        console.log('error generating section routes');
-        throw error;
     }
-    try {
-        // _pagemap is a list of all content pages in the blog
-        const allPages = await getContentAtRoute(['_pagemap']);
-        if (allPages && allPages.children) {
-            for (const page of allPages.children) {
-                if (page.route) {
-                    const route = canonicalizeRoute(page.route);
-                    params.push({ route: route.split('/') });
-                }
-            }
+    for (const route in index.sectionMap) {
+        if (route !== '') {
+            params.push({ route: route.split('/') });
         }
-    } catch (error) {
-        console.log('error generating page routes');
-        throw error;
     }
     return params;
 }
